@@ -13,7 +13,7 @@ I don't really code in python and I only really learned it recently. Now I know 
 Go to the <a href="https://github.com/PhotonMastr/ConvertU/releases/tag/ConvertU">Releases Page</a>
 click on the text ConvertU-Linux
 <img src="https://cdn.discordapp.com/attachments/655147160190320651/998032871568707634/unknown.png" width="200"/>
-and it should download a file in your Downloads folder called ConvertU-Linux. Once you have that in your downloads open a terminal and cd into Downloads (or whatever directory the file is in). Once you are Cd'd in just run ./ConvertU-Linux and the script should run with no issues
+And it should download a file in your Downloads folder called ConvertU-Linux. Once you have that in your downloads open a terminal and cd into Downloads (or whatever directory the file is in). Once you are Cd'd in just run ./ConvertU-Linux and the script should run with no issues
 
 <h1>MacOS</h1>
 Go to the <a href="https://github.com/PhotonMastr/ConvertU/releases/tag/ConvertU">Releases Page</a>
