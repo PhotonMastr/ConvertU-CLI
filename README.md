@@ -8,8 +8,11 @@ I don't really code in python and I only really learned it recently. Now I know 
 
 -------------------------------------------------------------------------------------------------------------------
 <h1>HOW TO RUN</h1>
-Maybe in the future ill make an installer of sort for it but for now it's just a run from command line thing
 
-If you want to run this on your own computer and don't know how for some reason Install python if it's not already installed (https://python.org/downloads) (INSTALL PYTHON 3 AND UP) Then just go in mac terminal, windows powershell, or any linux terminal of your choice and type python3 and then the path to the file e.g python3 /home/YOURNAME/Downloads/ConvertU.py/ and it should work (linux filesystem example)
+<h1>Linux/MacOS</h1>
+Go to the <a href="https://github.com/PhotonMastr/ConvertU/releases/tag/ConvertU">Releases Page</a>
+click on the text ConvertU-Linux
+<img src="https://cdn.discordapp.com/attachments/655147160190320651/998032871568707634/unknown.png" width="200"/>
+and it should download a file in your Downloads folder called ConvertU-Linux. Once you have that in your downloads open a terminal and cd into Downloads (or whatever directory the file is in). Once you are Cd'd in just run ./ConvertU-Linux and the script should run with no issues
 
 bye - photon
