@@ -2,10 +2,10 @@
 A CLI converter for Mass, Digital Storage, Length, Speed, Temperature. Written in Python
 -------------------------------------------------------------------------------------------------------------------
 <h1>NOTE: I have noticed that windows smartscreen doesn't like it and sees it as a virus. if it warns you click 'more details' and 'run anyway' and then it won't give you issues. It's not a virus and if you don't believe me read the source code yourself</h1>
-Very simple to modify and read the source code.
+
 
 <h1>Written. In. Python.</h1>
-
+Very simple to modify and read the source code.
  <img src="https://cdn.discordapp.com/attachments/655147160190320651/997675726394376262/1024px-Python-logo-notext.svg.png" width="65"/>
 
 -------------------------------------------------------------------------------------------------------------------
