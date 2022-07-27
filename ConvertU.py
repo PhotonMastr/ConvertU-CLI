@@ -1,10 +1,10 @@
 # Converter for pretty much anything... Mass, Digital Storage, Length, Speed, Temperature. 
-# Coded by Tristan
-# https://github.com/PhotonMastr
+# Currency might come in the future but not right now....
+# Do not steal please just don't lol
+# No, Seriously this took me like 20 hours
 
 
 import os
-from select import select 
 import time
 
 def mass():
@@ -1011,9 +1011,8 @@ def temperature():
             input("")
 
 print("Welcome to ConvertU")
-time.sleep(1)
 os.system('cls' if os.name == 'nt' else 'clear')
-print("1. Mass\n2. Digital Storage\n3. Length\n4. Speed\n5. Temperature")
+print("1. Mass\n2. Digital Storage\n3. Length\n4. Speed\n5. Temperature 6. ")
 option1 = input("Select a number 1-5 for the corresponding unit type: ")
 os.system('cls' if os.name == 'nt' else 'clear')
 
