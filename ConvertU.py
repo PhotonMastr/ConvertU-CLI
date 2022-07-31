@@ -1,8 +1,16 @@
-# Converter for pretty much anything... Mass, Digital Storage, Length, Speed, Temperature. 
-# Currency might come in the future but not right now....
-# Do not steal please just don't lol
-# No, Seriously this took me like 20 hours
-
+## ____  ____  _      _     _____ ____  _____  _    
+##/   _\/  _ \/ \  /|/ \ |\/  __//  __\/__ __\/ \ /\
+##|  /  | / \|| |\ ||| | //|  \  |  \/|  / \  | | ||
+##|  \__| \_/|| | \||| \// |  /_ |    /  | |  | \_/|
+##\____/\____/\_/  \|\__/  \____\\_/\_\  \_/  \____/
+##                                                
+## Written In Python
+## By Tristan And Triman
+## Aka PhotonMastr
+## twitch.tv/photonmastr
+## github.com/photonmastr
+## twitter.com/photonmastr
+## github.com/lildemonn
 
 import os
 import time
@@ -975,7 +983,7 @@ def temperature():
         os.system('cls' if os.name == 'nt' else 'clear')
         print("1. Celsius\n2. Kelvin")
         fahrenheittowhat = input("Select a number 1-2 for the corresponding unit: ")
-        if int(celsiustowhat) == 1:
+        if int(fahrenheittowhat) == 1:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Celsius. Ok, now input how many Fahrenheit to Celsius")
             fahrenheittocelsius = input("")
@@ -1010,16 +1018,126 @@ def temperature():
             print("your answer is: " + str(answerkelvintofahrenheit))
             input("")
 
+def frequency():
+    os.system('cls' if os.name == 'nt' else 'clear')
+    print("1. Hertz\n2. Kilohertz\n3. Megahertz\n4. Gigahertz")
+    freqoption = input("Select a number 1-4 for the corresponding unit")
+    if int(freqoption) == 1:
+        os.system('cls' if os.name == 'nt' else 'clear')
+        print("Hertz. Ok, now what do you want to convert that to?")
+        os.system('cls' if os.name == 'nt' else 'clear')
+        print("1. Kilohertz\n2. Megahertz\n3. Gigahertz")
+        hertztowhat = input("Select a number 1-3 for the corresponding unit")
+        if int(hertztowhat) == 1:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Kilohertz. Ok, now input how many Hertz to Kilohertz")
+            hertztokilohertz = input("")
+            answerhertztokilohertz = float(hertztokilohertz) / 100
+            print(f"your answer is: {answerhertztokilohertz}")
+            input("")
+        elif int(hertztowhat) == 2:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Megahertz. Ok, now input how many Hertz to Megahertz")
+            hertztomegahertz = input("")
+            answerhertztomegahertz = float(hertztomegahertz) / 1000000
+            print(f"your answer is: {answerhertztomegahertz}")
+            input("")
+        elif int(hertztowhat) == 3:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Gigahertz. Ok, now input how many Hertz to Gigahertz")
+            hertztogigahertz = input("")
+            answerhertztogigahertz = float(hertztogigahertz) / 1000000000
+            print(f"your answer is: {answerhertztogigahertz}")
+            input("")
+    elif int(freqoption) == 2:
+        os.system('cls' if os.name == 'nt' else 'clear')
+        print("Kilohertz. Ok, now what do you want to convert that to?")
+        print("1. Hertz\n2. Megahertz\n3. Gigahertz")
+        kilohertztowhat = input("Select a number 1-3 for the corresponding unit")
+        if int(kilohertztowhat) == 1:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Hertz. Ok, now input how many Kilohertz to Hertz")
+            kilohertztohertz = input("")
+            answerkilohertztohertz = float(kilohertztohertz) * 1000
+            print(f"your answer is: {answerkilohertztohertz}")
+            input("")
+        elif int(kilohertztowhat) == 2:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Megahertz. Ok, now input how many Kilohertz to Megahertz")
+            kilohertztomegahertz = input("")
+            answerkilohertztomegahertz = float(kilohertztomegahertz) / 1000
+            print(f"your answer is: {answerkilohertztomegahertz}")
+        elif int(kilohertztowhat) == 3:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Gigahertz. Ok, now input how many Kilohertz to Gigahertz")
+            kilohertztogigahertz = input("")
+            answerkilohertztogigahertz = float(kilohertztogigahertz) / 1000000
+            print(f"your answer is {answerkilohertztogigahertz}")
+            input("")
+    elif int(freqoption) == 3:
+        os.system('cls' if os.name == 'nt' else 'clear')
+        print("Megahertz. Ok, now what do you want to convert that to?")
+        print("1. Hertz\n2. Kilohertz\n3. Gigahertz")
+        megahertztowhat = input("Select a number 1-3 for the corresponding unit")
+        if int(megahertztowhat) == 1:
+            os.system('cls' if os.name == 'nt' else 'clear') 
+            print("Hertz. Ok, now input how many Megahertz to Hertz")
+            megahertztohertz = input("")
+            answermegahertztohertz = float(megahertztohertz) * 1000000
+            print(f"your answer is: {answermegahertztohertz}")
+            input("")
+        elif int(megahertztowhat) == 2:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Kilohertz. Ok, now input how many Megahertz to Kilohertz")
+            megahertztokilohertz = input("")
+            answermegahertztokilohertz = float(megahertztokilohertz) * 1000
+            print(f"your answer is: {answermegahertztokilohertz}")
+            input("")
+        elif int(megahertztowhat) == 3:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Gigahertz. Ok, now input how many Megahertz to Gigahertz")
+            megahertztogigahertz = input("")
+            answermegahertztogigahertz = float(megahertztogigahertz) / 1000
+            print(f"your answer is {answermegahertztogigahertz}")
+            input("")
+    elif int(freqoption) == 4:
+        os.system('cls' if os.name == 'nt' else 'clear')
+        print("Gigahertz. Ok, now what do you want to convert that to?")
+        print("1. Hertz\n2. Kilohertz\n3. Megahertz")
+        gigahertztowhat = input("Select a number 1-3 for the corresponding unit")
+        if int(gigahertztowhat) == 1:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Hertz. Ok, now input how many Gigahertz to Hertz")
+            gigahertztohertz = input("")
+            answergigahertztohertz = float(gigahertztohertz) * 1000000000
+            print(f"your answer is: {answergigahertztohertz}")
+            input("")
+        elif int(gigahertztowhat) == 2:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Kilohertz. Ok, now input how many Gigahertz to Kilohertz")
+            gigahertztokilohertz = input("")
+            answergigahertztokilohertz = float(gigahertztokilohertz) * 1000000
+            print(f"your answer is: {answergigahertztokilohertz}")
+            input("")
+        elif int(gigahertztowhat) == 3:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Megahertz. Ok, now input how many Gigahertz to Megahertz")
+            gigahertztomegahertz = input("")
+            answergigahertztomegahertz = float(gigahertztomegahertz) / 1000
+            print(f"your answer is: {answergigahertztomegahertz}")
+            input("")
+
+
 print("Welcome to ConvertU")
+time.sleep(1)
 os.system('cls' if os.name == 'nt' else 'clear')
-print("1. Mass\n2. Digital Storage\n3. Length\n4. Speed\n5. Temperature 6. ")
-option1 = input("Select a number 1-5 for the corresponding unit type: ")
+print("1. Mass\n2. Digital Storage\n3. Length\n4. Speed\n5. Temperature\n6. Frequency ")
+option1 = input("Select a number 1-6 for the corresponding unit type: ")
 os.system('cls' if os.name == 'nt' else 'clear')
 
 
 if int(option1) == 1:
-    mass() 
-
+    mass()
 elif int(option1) == 2:
     storage()
 elif int(option1) == 3:
@@ -1028,3 +1146,5 @@ elif int(option1) == 4:
     speed()
 elif int(option1) == 5:
     temperature()
+elif int(option1) == 6:
+    frequency()
