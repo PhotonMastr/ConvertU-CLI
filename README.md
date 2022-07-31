@@ -1,8 +1,10 @@
 # ConvertU
 A CLI converter for Mass, Digital Storage, Length, Speed, Temperature, Frequency. Written in Python
 -------------------------------------------------------------------------------------------------------------------
-<h1>Why ConvertU</h1>
+<h1>Why ConvertU?</h1>
+
 - It has a bunch of different units. We don't have an installer right now but for now you can just make shortcuts in your searchbar to easily access ConvertU
+
 - FOSS, You are free to modify, read, distribute the code as outlined in GPL3
 
 
@@ -11,6 +13,7 @@ A CLI converter for Mass, Digital Storage, Length, Speed, Temperature, Frequency
 
 <h1>Written. In. Python.</h1>
 Very simple to modify and read the source code.
+ 
  
 <img src="https://cdn.discordapp.com/attachments/655147160190320651/997675726394376262/1024px-Python-logo-notext.svg.png" width="65"/>
 
