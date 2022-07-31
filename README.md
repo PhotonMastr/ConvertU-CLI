@@ -1,7 +1,12 @@
 # ConvertU
-A CLI converter for Mass, Digital Storage, Length, Speed, Temperature. Written in Python
+A CLI converter for Mass, Digital Storage, Length, Speed, Temperature, Frequency. Written in Python
 -------------------------------------------------------------------------------------------------------------------
-<h1>NOTE: I have noticed that windows smartscreen doesn't like it and sees it as a virus. if it warns you click 'more details' and 'run anyway' and then it won't give you issues. It's not a virus and if you don't believe me read the source code yourself</h1>
+<h1>Why ConvertU</h1>
+- It has a bunch of different units. We don't have an installer right now but for now you can just make shortcuts in your searchbar to easily access ConvertU
+- FOSS, You are free to modify, read, distribute the code as outlined in GPL3
+
+
+
 
 
 <h1>Written. In. Python.</h1>
