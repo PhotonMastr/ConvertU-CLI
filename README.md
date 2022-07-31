@@ -35,4 +35,5 @@ And it should download a file in your Downloads folder. I'm sure if you've used 
 
 <h1> NOTE: An installer is coming in the future so this is less of a hassle </h1>
 
-<img src="https://cdn.discordapp.com/attachments/655147160190320651/1000954703653380117/Logo.png" alt="ConvertU" width="40" height="40"/>
+<img src="https://cdn.discordapp.com/attachments/655147160190320651/1000954703653380117/Logo.png" alt="ConvertU" width="100" height="100"/>
+<h1>ConvertU-CLI</h1>
