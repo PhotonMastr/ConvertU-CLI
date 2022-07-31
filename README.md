@@ -27,8 +27,8 @@ And it should download a file in your Downloads folder called ConvertU-MacOS. On
 
 <h1>Windows</h1> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Windows_logo_-_2012.png/800px-Windows_logo_-_2012.png" alt="linux" width="40" height="40"/>
 Go to the <a href="https://github.com/PhotonMastr/ConvertU/releases/tag/ConvertU">Releases Page</a>
-Click on the text ConvertU-CLI-[version here]-Windows.exe
-<img src=https://cdn.discordapp.com/attachments/655147160190320651/1003117041349300264/unknown.png" width="200"/>
+Click on the text ConvertU-CLI-[version here].exe
+<img src="https://cdn.discordapp.com/attachments/655147160190320651/1003117041349300264/unknown.png" width="200"/>
 And it should download a file in your Downloads folder. I'm sure if you've used windows before... you know the drill. Double click the file and it just works
 
 
