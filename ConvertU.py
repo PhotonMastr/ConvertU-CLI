@@ -5,12 +5,11 @@
 ##\____/\____/\_/  \|\__/  \____\\_/\_\  \_/  \____/
 ##                                                
 ## Written In Python
-## By Tristan And Triman
+## By Tristan
 ## Aka PhotonMastr
 ## twitch.tv/photonmastr
 ## github.com/photonmastr
 ## twitter.com/photonmastr
-## github.com/lildemonn
 
 import os
 import time
@@ -29,37 +28,37 @@ def mass():
             print("Kilograms. Ok, input how many Tons to Kilograms.")
             tonstokilograms = input("")
             answertonstokilograms = float(tonstokilograms) * 907.2
-            print("your answer is: " + str(answertonstokilograms))
+            print(f"your answer is: {answertonstokilograms}")
             input("")
-        if int(tonstowhat) == 2:
+        elif int(tonstowhat) == 2:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Grams. Ok, input how many Tons to Grams")
             tonstograms = input("")
             answertonstograms = float(tonstograms) * 907200
-            print("your answer is: " + str(answertonstograms))
+            print(f"your answer is: {answertonstograms}")
             input("")
-        if int(tonstowhat) == 3:
+        elif int(tonstowhat) == 3:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Milligrams. Ok, input how many Tons to Milligrams")
             tonstomilligrams = input("")
             answertonstomilligrams = float(tonstomilligrams) * 970200000
-            print("your answer is: " + str(answertonstomilligrams))
+            print(f"your answer is: {answertonstomilligrams}")
             input("")
-        if int(tonstowhat) == 4:
+        elif int(tonstowhat) == 4:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Pounds. Ok, input how many Tons to Pounds")
             tonstopounds = input("")
             answertonstopounds = float(tonstopounds) * 2000
-            print("your answer is: " + str(answertonstopounds))
+            print(f"your answer is: {answertonstopounds}")
             input("")
-        if int(tonstowhat) == 5:
+        elif int(tonstowhat) == 5:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Ounces. Ok, input how many Tons to Ounces")
             tonstoounces = input("")
             answertonstoounces = float(tonstoounces) * 32000
-            print("your answer is: " + str(answertonstoounces))
+            print(f"your answer is: {answertonstoounces}")
             input("")
-    if int(massoption) == 2:
+    elif int(massoption) == 2:
         os.system('cls' if os.name == 'nt' else 'clear')
         print("Kilograms. Ok,  Now what do you want to convert that to?")
         os.system('cls' if os.name == 'nt' else 'clear') 
@@ -70,37 +69,37 @@ def mass():
                 print("Tons. Ok, input how many Kilograms to Tons")
                 kilogramstotons = input("")
                 answerkilogramstotons = float(kilogramstotons) / 907.2
-                print("your answer is: " + str(answerkilogramstotons))
+                print(f"your answer is: {answerkilogramstotons}")
                 input("")
-        if int(kilogramstowhat) == 2:
+        elif int(kilogramstowhat) == 2:
                 os.system('cls' if os.name == 'nt' else 'clear') 
                 print("Grams. Ok, input how many Kilograms to Grams")
                 kilogramstograms = input("")
                 answerkilogramstograms = float(kilogramstograms) * 1000
-                print("your answer is: " + str(answerkilogramstograms))
+                print(f"your answer is: {answerkilogramstograms}")
                 input("")
-        if int(kilogramstowhat) == 3:
+        elif int(kilogramstowhat) == 3:
                 os.system('cls' if os.name == 'nt' else 'clear') 
                 print("Milligrams. Ok, input how many Kilograms to Milligrams")
                 kilogramstomilligrams = input("")
                 answerkilogramstomilligrams = float(kilogramstomilligrams) * 1000000
-                print("your answer is: " + str(answerkilogramstomilligrams))
+                print(f"your answer is: {answerkilogramstomilligrams}")
                 input("")
-        if int(kilogramstowhat) == 4:
+        elif int(kilogramstowhat) == 4:
                 os.system('cls' if os.name == 'nt' else 'clear') 
                 print("Pounds. Ok, input how many Kilograms to Pounds")
                 kilogramstopounds = input("")
                 answerkilogramstopounds = float(kilogramstopounds) * 2.205
-                print("your answer is: " + str(answerkilogramstopounds))
+                print(f"your answer is: {answerkilogramstopounds}")
                 input("")
-        if int(kilogramstowhat) == 5:
+        elif int(kilogramstowhat) == 5:
                 os.system('cls' if os.name == 'nt' else 'clear') 
                 print("Ounces. Ok, input how many Kilograms to Ounces")
                 kilogramstoounces = input("")
                 answerkilogramstoounces = float(kilogramstoounces) * 35.274
-                print("your answer is: " + str(answerkilogramstoounces))
+                print(f"your answer is: {answerkilogramstoounces}")
                 input("")
-    if int(massoption) == 3:
+    elif int(massoption) == 3:
         os.system('cls' if os.name == 'nt' else 'clear')
         print("Grams. Ok, now what do you want to convert that to?")
         os.system('cls' if os.name == 'nt' else 'clear')
@@ -111,37 +110,37 @@ def mass():
                 print("Tons. Ok, input how many Grams to Tons")
                 gramstotons = input("")
                 answergramstotons = float(gramstotons) / 907200
-                print("your answer is: " + str(answergramstotons))
+                print(f"your answer is: {answergramstotons}")
                 input("")
-        if int(gramstowhat) == 2:
+        elif int(gramstowhat) == 2:
                 os.system('cls' if os.name == 'nt' else 'clear')
                 print("Kilograms. Ok, input how many Grams to Kilograms")
                 gramstokilograms = input("")
                 answergramstokilograms = float(gramstokilograms) / 1000
-                print("your answer is: " + str(answergramstokilograms))
+                print(f"your answer is: {answergramstokilograms}")
                 input("")
-        if int(gramstowhat) == 3:
+        elif int(gramstowhat) == 3:
                 os.system('cls' if os.name == 'nt' else 'clear')
                 print("Milligrams. Ok, input how many Grams to Milligrams")
                 gramstomilligrams = input("")
                 answergramstomilligrams = float(gramstomilligrams) * 1000
-                print("your answer is: " + str(answergramstomilligrams))
+                print(f"your answer is: {answergramstomilligrams}")
                 input("")
-        if int(gramstowhat) == 4:
+        elif int(gramstowhat) == 4:
                 os.system('cls' if os.name == 'nt' else 'clear')
                 print("Pounds. Ok, input how many Grams to Pounds")
                 gramstopounds = input("")
                 answergramstopounds = float(gramstopounds) / 453.6
-                print("your answer is: " + str(answergramstopounds))
+                print(f"your answer is: {answergramstopounds}")
                 input("")
-        if int(gramstowhat) == 5:
+        elif int(gramstowhat) == 5:
                 os.system('cls' if os.name == 'nt' else 'clear')
                 print("Ounces. Ok, input how many Grams to Ounces")
                 gramstoounces = input("")
                 answergramstoounces = float(gramstoounces) / 28.35
-                print("your answer is: " + str(answergramstoounces))
+                print(f"your answer is: {answergramstoounces}")
                 input("")
-    if int(massoption) == 4:
+    elif int(massoption) == 4:
         os.system('cls' if os.name == 'nt' else 'clear')
         print("milligrams. Ok, now what do you want to convert that to?")
         os.system('cls' if os.name == 'nt' else 'clear')
@@ -152,37 +151,37 @@ def mass():
                 print("Tons. Ok, input how many Milligrams to Tons")
                 milligramstotons = input("")
                 answermilligramstotons = float(milligramstotons) / 907200000
-                print("your answer is: " + str(answermilligramstotons))
+                print(f"your answer is: {answermilligramstotons}")
                 input("")
-        if int(milligramstowhat) == 2:
+        elif int(milligramstowhat) == 2:
                 os.system('cls' if os.name == 'nt' else 'clear')
                 print("Kilograms. Ok, input how many Milligrams to Kilograms")
                 milligramstokilograms = input("")
                 answermilligramstokilograms = float(milligramstokilograms) / 1000000
-                print("your answer is: " + str(answermilligramstokilograms))
+                print(f"your answer is: {answermilligramstokilograms}")
                 input("")
-        if int(milligramstowhat) == 3:
+        elif int(milligramstowhat) == 3:
                 os.system('cls' if os.name == 'nt' else 'clear')
                 print("Grams. Ok, input how many Milligrams to Grams")
                 milligramstograms = input("")
                 answermilligramstograms = float(milligramstograms) / 1000
-                print("your answer is: " + str(answermilligramstograms))
+                print(f"your answer is: {answermilligramstograms}")
                 input("")
-        if int(milligramstowhat) == 4:
+        elif int(milligramstowhat) == 4:
                 os.system('cls' if os.name == 'nt' else 'clear')
                 print("Pounds. Ok, input how many milligrams to Pounds")
                 milligramstopounds = input("")
-                answermilligramstopounds = float(gramstopounds) / 453600
-                print("your answer is: " + str(answermilligramstopounds))
+                answermilligramstopounds = float(milligramstopounds) / 453600
+                print(f"your answer is: {answermilligramstopounds}")
                 input("")
-        if int(milligramstowhat) == 5:
+        elif int(milligramstowhat) == 5:
                 os.system('cls' if os.name == 'nt' else 'clear')
                 print("Ounces. Ok, input how many milligrams to Ounces")
                 milligramstoounces = input("")
                 answermilligramstoounces = float(milligramstoounces) / 28350
-                print("your answer is: " + str(answermilligramstoounces))
+                print(f"your answer is: {answermilligramstoounces}")
                 input("")
-    if int(massoption) == 5:
+    elif int(massoption) == 5:
         os.system('cls' if os.name == 'nt' else 'clear')
         print("Pounds. Ok, now what do you want to convert that to?")
         os.system('cls' if os.name == 'nt' else 'clear')
@@ -193,37 +192,37 @@ def mass():
                 print("Tons. Ok, input how many Pounds to Tons")
                 poundstotons = input("")
                 answerpoundstotons = float(poundstotons) / 2000
-                print("your answer is: " + str(answerpoundstotons))
+                print(f"your answer is: {answerpoundstotons}")
                 input("")
-        if int(poundstowhat) == 2:
+        elif int(poundstowhat) == 2:
                 os.system('cls' if os.name == 'nt' else 'clear')
                 print("Kilograms. Ok, input how many Pounds to Kilograms")
                 poundstokilograms = input("")
                 answerpoundstokilograms = float(poundstokilograms) / 2.205
-                print("your answer is: " + str(answerpoundstokilograms))
+                print(f"your answer is: {answerpoundstokilograms}")
                 input("")
-        if int(poundstowhat) == 3:
+        elif int(poundstowhat) == 3:
                 os.system('cls' if os.name == 'nt' else 'clear')
                 print("Grams. Ok, input how many Pounds to Grams")
                 poundstograms = input("")
                 answerpoundstograms = float(poundstograms) * 453.6
-                print("your answer is: " + str(answerpoundstograms))
+                print(f"your answer is: {answerpoundstograms}")
                 input("")
-        if int(poundstowhat) == 4:
+        elif int(poundstowhat) == 4:
                 os.system('cls' if os.name == 'nt' else 'clear')
                 print("Milligrams. Ok, input how many Pounds to Milligrams")
                 poundstomilligrams = input("")
                 answerpoundstomilligrams = float(poundstomilligrams) * 453600
-                print("your answer is: " + str(answerpoundstomilligrams))
+                print(f"your answer is: {answerpoundstomilligrams}")
                 input("")
-        if int(poundstowhat) == 5:
+        elif int(poundstowhat) == 5:
                 os.system('cls' if os.name == 'nt' else 'clear')
                 print("Ounces. Ok, input how many Pounds to Ounces")
                 poundstoounces = input("")
                 answerpoundstoounces = float(poundstoounces) * 16
-                print("your answer is: " + str(answerpoundstoounces)) 
+                print(f"your answer is: {answerpoundstoounces}") 
                 input("")
-    if int(massoption) == 6:
+    elif int(massoption) == 6:
         os.system('cls' if os.name == 'nt' else 'clear')
         print("Ounces. Ok, now what do you want to convert that to?")
         os.system('cls' if os.name == 'nt' else 'clear')
@@ -234,35 +233,35 @@ def mass():
                 print("Tons. Ok, input how many Ounces to Tons")
                 ouncestotons = input("")
                 answerouncestotons = float(ouncestotons) / 32000
-                print("your answer is " + str(answerouncestotons))
+                print(f"your answer is {answerouncestotons}")
                 input("")
-        if int(ouncestowhat) == 2:
+        elif int(ouncestowhat) == 2:
                 os.system('cls' if os.name == 'nt' else 'clear')
                 print("Kilograms. Ok, input how many Ounces to Kilograms")
                 ouncestokilograms = input("")
                 answerouncestokilograms = float(ouncestokilograms) / 35.274
-                print("your answer is " + str(answerouncestokilograms))
+                print(f"your answer is {answerouncestokilograms}")
                 input("")
-        if int(ouncestowhat) == 3:
+        elif int(ouncestowhat) == 3:
                 os.system('cls' if os.name == 'nt' else 'clear')
-                print("Grams. Ok, input how many Ounces to Grams")
+                print(f"Grams. Ok, input how many Ounces to Grams")
                 ouncestograms = input("")
                 answerouncestograms = float(ouncestograms) * 28.35
-                print("your answer is: " + str(answerouncestograms))
+                print(f"your answer is: {answerouncestograms}")
                 input("")
-        if int(ouncestowhat) == 4:
+        elif int(ouncestowhat) == 4:
                 os.system('cls' if os.name == 'nt' else 'clear')
                 print("Milligrams. Ok, input how many Ounces to Milligrams")
                 ouncestomilligrams = input("")
                 answerouncestomilligrams = float(ouncestomilligrams) * 28350
-                print("your answer is: " + str(answerouncestomilligrams))
+                print(f"your answer is: {answerouncestomilligrams}")
                 input("")
-        if int(ouncestowhat) == 5:
+        elif int(ouncestowhat) == 5:
                 os.system('cls' if os.name == 'nt' else 'clear')
                 print("Pounds. Ok, input how many Ounces to Pounds")
                 ouncestopounds = input("")
                 answerouncestopounds = float(ouncestopounds) / 16
-                print("your answer is: " + str(answerouncestopounds))
+                print(f"your answer is: {answerouncestopounds}")
                 input("")
 
 def storage():
@@ -279,30 +278,30 @@ def storage():
             print("Kilobytes. Ok, input how many Bytes to Kilobytes")
             bytestokilobytes = input("")
             answerbytestokilobytes = float(bytestokilobytes) / 1000 
-            print("your answer is: " + str(answerbytestokilobytes))
+            print(f"your answer is: {answerbytestokilobytes}")
             input("")
-        if int(bytestowhat) == 2: 
+        elif int(bytestowhat) == 2: 
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Megabytes. Ok, input how many Bytes to Megabytes")
             bytestomegabytes = input("")
             answerbytestomegabytes = float(bytestomegabytes) / 1000000
-            print("your answer is: " + str(answerbytestomegabytes))
+            print(f"your answer is: {answerbytestomegabytes}")
             input("")
-        if int(bytestowhat) == 3:
+        elif int(bytestowhat) == 3:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Gigabyte. Ok, input how many Bytes to Gigabytes")
             bytestogigabytes = input("")
             answerbytestogigabytes = float(bytestogigabytes) / 1000000000 
-            print("your answer is: " + str(answerbytestogigabytes))
+            print(f"your answer is: {answerbytestogigabytes}")
             input("")
-        if int(bytestowhat) == 4:
+        elif int(bytestowhat) == 4:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Terabyte. Ok, input how many Bytes to Terabytes")
             bytestoterabytes = input("")
             answerbytestoterabytes = float(bytestoterabytes) / 1000000000000
-            print("your answer is: " + str(answerbytestoterabytes))
+            print(f"your answer is: {answerbytestoterabytes}")
             input("")
-    if int(storageoption) == 2:
+    elif int(storageoption) == 2:
         os.system('cls' if os.name == 'nt' else 'clear')
         print("Kilobytes. Ok, now what do you want to convert that to?")
         os.system('cls' if os.name == 'nt' else 'clear')
@@ -313,28 +312,28 @@ def storage():
             print("Bytes. Ok, input how many Kilobytes to Bytes")
             kilobytestobytes = input("")
             answerkilobytestobytes = float(kilobytestobytes) * 1000 
-            print("your answer is: " + str(answerkilobytestobytes))
+            print(f"your answer is: {answerkilobytestobytes}")
             input("")
-        if int(kilobytestowhat) == 2:
+        elif int(kilobytestowhat) == 2:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Megabytes. Ok, input how many Kilobytes to Megabytes")
             kilobytestomegabytes = input("")
             answerkilobytestomegabytes = float(kilobytestomegabytes) / 1000
-            print("your answer is: " + str(answerkilobytestomegabytes))
+            print(f"your answer is: {answerkilobytestomegabytes}")
             input("")
-        if int(kilobytestowhat) == 3:
+        elif int(kilobytestowhat) == 3:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Gigabytes. Ok, input how many Kilobytes to Gigabytes")
             kilobytestogigabytes = input("")
             answerkilobytestogigabytes = float(kilobytestogigabytes) / 1000000
-            print("your answer is: " + str(answerkilobytestogigabytes))
+            print(f"your answer is: {answerkilobytestogigabytes}")
             input("")
-        if int(kilobytestowhat) == 4:
+        elif int(kilobytestowhat) == 4:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Terabytes. Ok, input how many Kilobytes to Terabytes")
             kilobytestoterabytes = input("")
             answerkilobytestoterabytes = float(kilobytestoterabytes) / 1000000000
-            print("your answer is: " + str(answerkilobytestoterabytes))
+            print(f"your answer is: {answerkilobytestoterabytes}")
             input("")
     if int(storageoption) == 3:
         os.system('cls' if os.name == 'nt' else 'clear')
@@ -347,30 +346,30 @@ def storage():
             print("Bytes. Ok, now input how many Gigabytes to Bytes?")
             gigabytestobytes = input("")
             answergigabytestobytes = float(gigabytestobytes) * 1000000000
-            print("your answer is: " + str(answergigabytestobytes))
+            print(f"your answer is: {answergigabytestobytes}")
             input("")
-        if int(gigabytestowhat) == 2:
+        elif int(gigabytestowhat) == 2:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Kilobytes. Ok, now input how many Gigabytes to Kilobytes")
             gigabytestokilobytes = input("")
             answergigabytestokilobytes = float(gigabytestokilobytes) * 1000000
-            print("your answer is: " + str(answergigabytestokilobytes))
+            print(f"your answer is: {answergigabytestokilobytes}")
             input("")
-        if int(gigabytestowhat) == 3:
+        elif int(gigabytestowhat) == 3:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Megabytes. Ok, now input how many Gigabytes to Megabytes")
             gigabytestomegabytes = input("")
             answergigabytestomegabytes = float(gigabytestomegabytes) * 1000
-            print("your answer is: " + str(answergigabytestomegabytes))
+            print(f"your answer is: {answergigabytestomegabytes}")
             input("")
-        if int(gigabytestowhat) == 4:
+        elif int(gigabytestowhat) == 4:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Terabyte. Ok, now input how many Gigabytes to Terabytes")
             gigabytestoterabytes = input("")
             answergigabytestoterabytes = float(gigabytestoterabytes) / 1000
-            print("your answer is: " + str(answergigabytestoterabytes))
+            print(f"your answer is: {answergigabytestoterabytes}")
             input("")
-    if int(storageoption) == 4:
+    elif int(storageoption) == 4:
         os.system('cls' if os.name == 'nt' else 'clear')
         print("Megabytes. Ok, now what do you want to convert that to?")
         os.system('cls' if os.name == 'nt' else 'clear')
@@ -381,30 +380,30 @@ def storage():
             print("Bytes. Ok, now input how many Megabytes to Bytes")
             megabytestobytes = input("")
             answermegabytestobytes = float(megabytestobytes) * 1000000
-            print("your answer is: " + str(answermegabytestobytes))
+            print(f"your answer is: {answermegabytestobytes}")
             input("")
-        if int(megabytestowhat) == 2:
+        elif int(megabytestowhat) == 2:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Kilobytes. Ok, now input how many Megabytes to Kilobytes")
             megabytestokilobytes = input("")
             answermegabytestokilobytes = float(megabytestokilobytes) * 1000
-            print("your answer is: " + str(answermegabytestokilobytes))
+            print(f"your answer is: {answermegabytestokilobytes}")
             input("")
-        if int(megabytestowhat) == 3:
+        elif int(megabytestowhat) == 3:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Gigabytes. Ok, now input how many Megabytes to Gigabytes")
             megabytestogigabytes = input("")
             answermegabytestogigabytes = float(megabytestogigabytes) / 1000
-            print("your answer is: " + str(answermegabytestogigabytes))
+            print(f"your answer is: {answermegabytestogigabytes}")
             input("")
-        if int(megabytestowhat) == 4:
+        elif int(megabytestowhat) == 4:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Terabyte. Ok, now input how many Megabytes to Terabytes")
             megabytestoterabytes = input("")
             answermegabytestoterabytes = float(megabytestoterabytes) / 1000000
-            print("your answer is: " + str(answermegabytestoterabytes))
+            print(f"your answer is: {answermegabytestoterabytes}")
             input("")
-    if int(storageoption) == 4:
+    elif int(storageoption) == 4:
         os.system('cls' if os.name == 'nt' else 'clear')
         print("Terabytes. Ok, now what do you want to convert that to?")
         os.system('cls' if os.name == 'nt' else 'clear')
@@ -415,28 +414,28 @@ def storage():
             print("Bytes. Ok, now input how many Terabytes to Bytes")
             terabytestobytes = input("")
             answerterabytestobytes = float(terabytestobytes) * 1000000000000
-            print("your answer is: " + str(answerterabytestobytes))
+            print(f"your answer is: {answerterabytestobytes}")
             input("")
-        if int(terabytestowhat) == 2:
+        elif int(terabytestowhat) == 2:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Kilobytes. Ok, now input how many Terabytes to Kilobytes")
             terabytestokilobytes = input("")
             answerterabytestokilobytes = float(terabytestokilobytes) * 1000000000
-            print("your answer is: " + str(answerterabytestokilobytes))
+            print(f"your answer is: {answerterabytestokilobytes}")
             input("")
-        if int(terabytestowhat) == 3:
+        elif int(terabytestowhat) == 3:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Gigabytes. Ok, now input how many Terabytes to Gigabytes")
             terabytestogigabytes = input("")
             answerterabytestogigabytes = float(terabytestogigabytes) * 1000 
-            print("your answer is: " + str(answerterabytestogigabytes))
+            print(f"your answer is: {answerterabytestogigabytes}")
             input("")
-        if int(terabytestowhat) == 4:
+        elif int(terabytestowhat) == 4:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Megabytes. Ok, now input how many Terabytes to Megabytes.")
             terabytestomegabytes = input("")
             answerterabytestomegabytes = float(terabytestomegabytes) * 1000000
-            print("your answer is: " + str(answerterabytestomegabytes))
+            print(f"your answer is: {answerterabytestomegabytes}")
             input("")
 
 
@@ -454,44 +453,44 @@ def length():
             print("Metres. Ok, now input how many Feet to Metres")
             feettometres = input("")
             answerfeettometres = float(feettometres) / 3.281
-            print("your answer is: " + str(answerfeettometres))
+            print(f"your answer is: {answerfeettometres}")
             input("")
-        if int(feettowhat) == 2:
+        elif int(feettowhat) == 2:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Kilometres. Ok, now input how many Feet to Kilometres")
             feettokilometres = input("")
             answerfeettokilometres = float(feettokilometres) / 3281
-            print("your answer is: " + str(answerfeettokilometres))
+            print(f"your answer is: {answerfeettokilometres}")
             input("")
-        if int(feettowhat) == 3:
+        elif int(feettowhat) == 3:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Centimetres. Ok, now input how many Feet to Centimetres")
             feettocentimetres = input("")
             answerfeettocentimetres = float(feettocentimetres) * 30.48
-            print("your answer is: "  + str(answerfeettocentimetres))
+            print(f"your answer is: "  + str(answerfeettocentimetres))
             input("")
-        if int(feettowhat) == 4:
+        elif int(feettowhat) == 4:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Millimetres. Ok, now input how many Feet to Millimetres")
             feettomillimetres = input("")
             answerfeettomillimetres = float(feettomillimetres) * 304.8
-            print("your answer is: " + str(answerfeettomillimetres))
+            print(f"your answer is: {answerfeettomillimetres}")
             input("")
-        if int(feettowhat) == 5:
+        elif int(feettowhat) == 5:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Yards. Ok, now input how many Feet to Yards")
             feettoyard = input("")
             answerfeettoyard = float(feettoyard) / 3
-            print("your answer is: " + str(answerfeettoyard))
+            print(f"your answer is: {answerfeettoyard}")
             input("")
-        if int(feettowhat) == 6:
+        elif int(feettowhat) == 6:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Inches. Ok, now input how many Feet to Inches")
             feettoinches = input("")
             answerfeettoinches = float(feettoinches) * 12
-            print("your answer is: " + str(answerfeettoinches))
+            print(f"your answer is: {answerfeettoinches}")
             input("")
-    if int(lengthoption) == 2:
+    elif int(lengthoption) == 2:
         os.system('cls' if os.name == 'nt' else 'clear')
         print("Metres. Ok, Now what do you want to convert that to?")
         os.system('cls' if os.name == 'nt' else 'clear')
@@ -502,44 +501,44 @@ def length():
             print("Feet. Ok, now input how many Metres to Feet")
             metrestofeet = input("")
             answermetrestofeet = float(metrestofeet) * 3.281
-            print("your answer is: " + str(answermetrestofeet))
+            print(f"your answer is: {answermetrestofeet}")
             input("")
-        if int(metrestowhat) == 2:
+        elif int(metrestowhat) == 2:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Kilometres. Ok, now input how many Metres to Kilometres")
             metrestokilometres = input("")
             answermetrestokilometres = float(metrestokilometres) / 1000
-            print("your answer is: " + str(answermetrestokilometres))
+            print(f"your answer is: {answermetrestokilometres}")
             input("")
-        if int(metrestowhat) == 3:
+        elif int(metrestowhat) == 3:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Centimetres. Ok, now input how many Metres to Centimetres")
             metrestocentimetres = input("")
             answermetrestocentimetres = float(metrestocentimetres) * 100
-            print("your answer is: " + str(answermetrestocentimetres))
+            print(f"your answer is: {answermetrestocentimetres}")
             input("")
-        if int(metrestowhat) == 4:
+        elif int(metrestowhat) == 4:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Millimetres. Ok, now input how many Metres to Millimetres")
             metrestomillimetres = input("")
             answermetrestomillimetres = float(metrestomillimetres) * 1000
-            print("your answer is: " + str(metrestomillimetres))
+            print(f"your answer is: {answermetrestomillimetres}")
             input("")
-        if int(metrestowhat) == 5:
+        elif int(metrestowhat) == 5:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Yards. Ok, now input how many Metres to Yards")
             metrestoyards = input("")
             answermetrestoyards = float(metrestoyards) * 1.094
-            print("your answer is: " + str(answermetrestoyards))
+            print(f"your answer is: {answermetrestoyards}")
             input("")
-        if int(metrestowhat) == 6:
+        elif int(metrestowhat) == 6:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Inches. Ok, now input how many Metres to Inches")
             metrestoinches = input("")
             answermetrestoinches = float(metrestoinches) * 39.37
-            print("your answer is: " + str(answermetrestoinches))
+            print(f"your answer is: {answermetrestoinches}")
             input("")
-    if int(lengthoption) == 3:
+    elif int(lengthoption) == 3:
         os.system('cls' if os.name == 'nt' else 'clear')
         print("Kilometres. Ok, now what do you want to convert that to?")
         os.system('cls' if os.name == 'nt' else 'clear')
@@ -550,44 +549,44 @@ def length():
             print("Feet. Ok, now input how many Kilometres to Feet")
             kilometrestofeet = input("")
             answerkilometrestofeet = float(kilometrestofeet) * 3281
-            print("your answer is: " + str(answerkilometrestofeet))
+            print(f"your answer is: {answerkilometrestofeet}")
             input("")
-        if int(kilometrestowhat) == 2:
+        elif int(kilometrestowhat) == 2:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Metres. Ok, now input how many Kilometres to Metres")
             kilometrestometres = input("")
             answerkilometrestometres = float(kilometrestometres) * 1000 
-            print("your answer is: " + str(answerkilometrestometres))
+            print(f"your answer is: {answerkilometrestometres}")
             input("")
-        if int(kilometrestowhat) == 3:
+        elif int(kilometrestowhat) == 3:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Centimetres. Ok, now input how many Kilometres to Centimetres")
             kilometrestocentimetres = input("")
             answerkilometrestocentimetres = float(kilometrestocentimetres) * 100000 
-            print("your answer is: " + str(answerkilometrestocentimetres))
+            print(f"your answer is: {answerkilometrestocentimetres}")
             input("")
-        if int(kilometrestowhat) == 4:
+        elif int(kilometrestowhat) == 4:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Millimetres. Ok, now input how many Kilometres to Millimetres")
             kilometrestocentimetres = input("")
             answerkilometrestomillimetres = float(kilometrestocentimetres) * 1000000
-            print("your answer is: " + str(answerkilometrestomillimetres))
+            print(f"your answer is: {answerkilometrestomillimetres}")
             input("")
-        if int(kilometrestowhat) == 5:
+        elif int(kilometrestowhat) == 5:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Yards. Ok, now input how many Kilometres to Yards")
             kilometrestoyards = input("")
             answerkilometrestoyards = float(kilometrestoyards) * 1094
-            print("your answer is: " + str(answerkilometrestoyards))
+            print(f"your answer is: {answerkilometrestoyards}")
             input("")
-        if int(kilometrestowhat) == 6:
+        elif int(kilometrestowhat) == 6:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Inches. Ok, now input how many Kilometres to Inches")
             kilometrestoinches = input("")
             answerkilometrestoinches = float(kilometrestoinches) * 39370 
-            print("your answer is: " + str(answerkilometrestoinches))
+            print(f"your answer is: {answerkilometrestoinches}")
             input("")
-    if int(lengthoption) == 4:
+    elif int(lengthoption) == 4:
         os.system('cls' if os.name == 'nt' else 'clear')
         print("Centimetres. Ok, now what do you want to convert that to?")
         os.system('cls' if os.name == 'nt' else 'clear')
@@ -598,44 +597,44 @@ def length():
             print("Feet. Ok, now input how many Centimetres to Feet")
             centimetrestofeet = input("")
             answercentimetrestofeet = float(centimetrestofeet) / 30.48
-            print("your answer is: " + str(answercentimetrestofeet))
+            print(f"your answer is: {answercentimetrestofeet}")
             input("")
-        if int(centimetrestowhat) == 2:
+        elif int(centimetrestowhat) == 2:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Metres. Ok, now input how many Centimetres to Metres")
             centimetrestometres = input("")
             answercentimetrestometres = float(centimetrestometres) / 100
-            print('your answer is: ' + str(answercentimetrestometres))
+            print(f'your answer is: {answercentimetrestometres}')
             input("")
-        if int(centimetrestowhat) == 3:
+        elif int(centimetrestowhat) == 3:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Kilometres. Ok, now input how many Centimetres to Kilometres")
             centimetrestokilometres = input("")
             answercentimetrestokilometres = float(centimetrestokilometres) / 1000000
-            print("your answer is: " + str(answercentimetrestokilometres))
+            print(f"your answer is: {answercentimetrestokilometres}")
             input("")
-        if int(centimetrestowhat) == 4:
+        elif int(centimetrestowhat) == 4:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Millimetres. Ok, now input how many Centimetres to Millimetres")
             centimetrestomillimetres = input("")
             answercentimetrestomillimetres = float(centimetrestomillimetres) * 10 
-            print("your answer is: " + str(answercentimetrestomillimetres))
+            print(f"your answer is: {answercentimetrestomillimetres}")
             input("")
-        if int(centimetrestowhat) == 5:
+        elif int(centimetrestowhat) == 5:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Yards. Ok. Now input how many Centimetres to Yards")
             centimetrestoyards = input("")
             answercentimetrestoyards = float(centimetrestoyards) / 91.44
-            print("your answer is: " + str(answercentimetrestoyards))
+            print(f"your answer is: {answercentimetrestoyards}")
             input("")
-        if int(centimetrestowhat) == 6:
+        elif int(centimetrestowhat) == 6:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Inches. Ok, now input how many Centimetres to Inches")
             centimetrestoinches = input("")
             answercentimetrestoinches = float(centimetrestoinches) / 2.54
-            print("your answer is: " + str(answercentimetrestoinches))
+            print(f"your answer is: {answercentimetrestoinches}")
             input("")
-    if int(lengthoption) == 5:
+    elif int(lengthoption) == 5:
         os.system('cls' if os.name == 'nt' else 'clear')
         print("Millimetres. Ok, now what do you want to convert that to?")
         os.system('cls' if os.name == 'nt' else 'clear')
@@ -646,44 +645,44 @@ def length():
             print("Feet. Ok, now input how many Millimetres to Feet")
             millimetrestofeet = input("")
             answermillimetrestofeet = float(millimetrestofeet) / 304.8
-            print("your answer is: " + str(answermillimetrestofeet))
+            print(f"your answer is: {answermillimetrestofeet}")
             input("")
-        if int(millimetrestowhat) == 2:
+        elif int(millimetrestowhat) == 2:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Metres. OK, now input how many Millimetres to Metres")
             millimetrestometres = input("")
             answermillimetrestometres = float(millimetrestometres) / 1000
-            print("your answer is: " + str(answermillimetrestometres))
+            print(f"your answer is: {answermillimetrestometres}")
             input("")
-        if int(millimetrestowhat) == 3:
+        elif int(millimetrestowhat) == 3:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Kilometres. Ok, now input how many Millimetres to Kilometres")
             millimetrestokilometres = input("")
             answermillimetrestokilometres = float(millimetrestokilometres) / 1000000
-            print("your answer is: " + str(answermillimetrestokilometres))
+            print(f"your answer is: {answermillimetrestokilometres}")
             input("")
-        if int(millimetrestowhat) == 4:
+        elif int(millimetrestowhat) == 4:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Centimetres. Ok, now input how many Millimetres to Centimetres")
             millimetrestocentimetres = input("")
             answermillimetrestocentimetres = float(millimetrestocentimetres) / 10
-            print("your answer is: " + str(answermillimetrestocentimetres))
+            print(f"your answer is: {answermillimetrestocentimetres}")
             input("")
-        if int(millimetrestowhat) == 5:
+        elif int(millimetrestowhat) == 5:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Yards. Ok, now input how many Millimetres to Yards")
             millimetrestoyards = input("")
             answermillimetrestoyards = float(millimetrestoyards) / 914.4
-            print("your answer is: " + str(answermillimetrestoyards))
+            print(f"your answer is: {answermillimetrestoyards}")
             input("")
-        if int(millimetrestowhat) == 6:
+        elif int(millimetrestowhat) == 6:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Inches. Ok, now input how many Millimetres to Inches")
             millimetrestoinches = input("")
             answermillimetrestoinches = float(millimetrestoinches) / 25.4
-            print("your answer is: " + str(answermillimetrestoinches))
+            print(f"your answer is: {answermillimetrestoinches}")
             input("")
-    if int(lengthoption) == 6:
+    elif int(lengthoption) == 6:
         os.system('cls' if os.name == 'nt' else 'clear')
         print("Yards. Ok, now what do you want to convert that to?")
         os.system('cls' if os.name == 'nt' else 'clear')
@@ -694,44 +693,44 @@ def length():
             print("Feet. Ok, now input how many Yards to Feet")
             yardstofeet = input("")
             answeryardstofeet = float(yardstofeet) * 3
-            print("your answer is: " + str(answeryardstofeet))
+            print(f"your answer is: {answeryardstofeet}")
             input("")
-        if int(yardstowhat) == 2:
+        elif int(yardstowhat) == 2:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Metres. Ok, now input how many Yards to Metres")
             yardstometres = input("")
             answeryardstometres = float(yardstometres) / 1.094
-            print("your answer is: " + str(answeryardstometres))
+            print(f"your answer is: {answeryardstometres}")
             input("")
-        if int(yardstowhat) == 3:
+        elif int(yardstowhat) == 3:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Kilometres. Ok, now input how many Yards to Kilometres")
             yardstokilometres = input("")
             answeryardstokilometres = float(yardstokilometres) / 1094
-            print("your answer is: " + str(answeryardstokilometres))
+            print(f"your answer is: {answeryardstokilometres}")
             input("")
-        if int(yardstowhat) == 4:
+        elif int(yardstowhat) == 4:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Centimetres. Ok, now input how many Yards to Centimetres")
             yardstocentimetres = input("")
             answeryardstocentimetres = float(yardstocentimetres) * 91.44
-            print("your answer is: " + str(answeryardstocentimetres))
+            print(f"your answer is: {answeryardstocentimetres}")
             input("")
-        if int(yardstowhat) == 5:
+        elif int(yardstowhat) == 5:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Millimetres. Ok, now input how many Yards to Millimetres")
             yardstomillimetres = input("")
             answeryardstomillimetres = float(yardstomillimetres) * 914.44
-            print("your answer is: " + str(answeryardstomillimetres))
+            print(f"your answer is: {answeryardstomillimetres}")
             input("")
-        if int(yardstowhat) == 6:
+        elif int(yardstowhat) == 6:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Inches. Ok, now input how many Yards to Inches")
             yardstoinches = input("")
             answeryardstoinches = float(yardstoinches) * 36
-            print("your answer is: " + str(answeryardstoinches))
+            print(f"your answer is: {answeryardstoinches}")
             input("")
-    if int(lengthoption) == 7:
+    elif int(lengthoption) == 7:
         os.system('cls' if os.name == 'nt' else 'clear')
         print("Inches. Ok, now what do you want to convert that to?")
         os.system('cls' if os.name == 'nt' else 'clear')
@@ -742,42 +741,42 @@ def length():
             print("Feet. Ok, now input how many Inches to Feet")
             inchestofeet = input("")
             answerinchestofeet = float(inchestofeet) / 12 
-            print("your answer is: " + str(answerinchestofeet))
+            print(f"your answer is: {answerinchestofeet}")
             input("")
-        if int(inchestowhat) == 2:
+        elif int(inchestowhat) == 2:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Metres. Ok, now input how many Inches to Metres")
             inchestometres = input("")
             answerinchestometres = float(inchestometres) / 39.37
-            print("your answer is: " + str(answerinchestometres))
+            print(f"your answer is: {answerinchestometres}")
             input("")
-        if int(inchestowhat) == 3:
+        elif int(inchestowhat) == 3:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Kilometres. Ok, now input how many Inches to Kilometres")
             inchestokilometres = input("")
             answerinchestokilometres = float(inchestokilometres) / 39370
-            print("your answer is: " + str(answerinchestokilometres))
+            print(f"your answer is: {answerinchestokilometres}")
             input("")
-        if int(inchestowhat) == 4:
+        elif int(inchestowhat) == 4:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Centimetres. Ok, now input how many Inches to Centimetres")
             inchestocentimetres = input("")
             answerinchestocentimetres = float(inchestocentimetres) * 2.54
-            print("your answer is: " + str(answerinchestocentimetres))
+            print(f"your answer is: {answerinchestocentimetres}")
             input("")
-        if int(inchestowhat) == 5:
+        elif int(inchestowhat) == 5:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Millimetres. Ok, now input how many Inches to Millimetres")
             inchestomillimetres = input("")
             answerinchestomillimetres = float(inchestomillimetres) * 25.4
-            print("your answer is: " + str(answerinchestomillimetres))
+            print(f"your answer is: {answerinchestomillimetres}")
             input("")
-        if int(inchestowhat) == 6:
+        elif int(inchestowhat) == 6:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Yards. Ok, now input how many Inches to Yards")
             inchestoyards = input("")
             answerinchestoyards = float(inchestoyards) / 36
-            print("your answer is: " + str(answerinchestoyards))
+            print(f"your answer is: {answerinchestoyards}")
             input("")
 
 def speed():
@@ -794,30 +793,30 @@ def speed():
             print("KPH. Ok, now input how many MPH to KPH")
             mphtokph = input("")
             answermphtokph = float(mphtokph) * 1.609
-            print("your answer is: " + str(answermphtokph))
+            print(f"your answer is: {answermphtokph}")
             input("")
-        if int(mphtowhat) == 2:
+        elif int(mphtowhat) == 2:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("FPS. Ok, now input how many MPH to FPS")
             mphtofps = input("")
             answermphtofps = float(mphtofps) * 1.467
-            print("your answer is: " + str(answermphtofps))
+            print(f"your answer is: {answermphtofps}")
             input("")
-        if int(mphtowhat) == 3:
+        elif int(mphtowhat) == 3:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("MPS. Ok, now input how many MPH to MPS")
             mphtomps = input("")
             answermphtomps = float(mphtomps) * 2.237
-            print("your answer is: " + str(answermphtomps))
+            print(f"your answer is: {answermphtomps}")
             input("")
-        if int(mphtowhat) == 4:
+        elif int(mphtowhat) == 4:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Knots. Ok, now input how many MPH to Knots")
             mphtoknots = input("")
             answermphtoknots = float(mphtoknots) / 1.151
-            print("your answer is: " + str(answermphtoknots))
+            print(f"your answer is: {answermphtoknots}")
             input("")
-    if int(speedoption) == 2:
+    elif int(speedoption) == 2:
         os.system('cls' if os.name == 'nt' else 'clear')
         print("KPH. Ok, now what do you want to convert that to?")
         os.system('cls' if os.name == 'nt' else 'clear')
@@ -828,30 +827,30 @@ def speed():
             print("MPH. Ok, now input how many KPH to MPH")
             kphtomph = input("")
             answerkphtomph = float(kphtomph) / 1.609
-            print("your answer is: " + str(answerkphtomph))
+            print(f"your answer is: {answerkphtomph}")
             input("")
-        if int(kphtowhat) == 2:
+        elif int(kphtowhat) == 2:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("FPS. Ok, now input how many KPH to FPS")
             kphtofps = input("")
             answerkphtofps = float(kphtofps) / 1.097
-            print("your answer is: " + str(answerkphtofps))
+            print(f"your answer is: {answerkphtofps}")
             input("")
-        if int(kphtowhat) == 3:
+        elif int(kphtowhat) == 3:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("MPS. Ok, now input how many KPH to MPS")
             kphtomps = input("")
             answerkphtomps = float(kphtomps) / 3.6 
-            print("your answer is: " + str(answerkphtomps))
+            print(f"your answer is: {answerkphtomps}")
             input("")
-        if int(kphtowhat) == 4:
+        elif int(kphtowhat) == 4:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Knots. Ok, now input how many KPH to Knots")
             kphtoknots = input("")
             answerkphtoknots = float(kphtoknots) / 1.852
-            print("your answer is: " + str(answerkphtoknots))
+            print(f"your answer is: {answerkphtoknots}")
             input("")
-    if int(speedoption) == 3:
+    elif int(speedoption) == 3:
         os.system('cls' if os.name == 'nt' else 'clear')
         print("FPS. Ok, now what do you want to convert that to?")
         os.system('cls' if os.name == 'nt' else 'clear')
@@ -862,30 +861,30 @@ def speed():
             print("MPH. Ok, now input how many FPS to MPH")
             fpstomph = input("")
             answerfpstomph = float(fpstomph) / 1.467
-            print("your answer is: " + str(answerfpstomph))
+            print(f"your answer is: {answerfpstomph}")
             input("")
-        if int(fpstowhat) == 2:
+        elif int(fpstowhat) == 2:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("KPH. Ok, now input how many FPS to KPH")
             fpstokph = input("")
             answerfpstokph = float(fpstokph) / 1.097
-            print("your answer is: " + str(answerfpstokph))
+            print(f"your answer is: {answerfpstokph}")
             input("")
-        if int(fpstowhat) == 3:
+        elif int(fpstowhat) == 3:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("MPS. Ok, now input how many FPS to MPS")
             fpstomps = input("")
             answerfpstomps = float(fpstomps) / 3.281 
-            print("your answer is: " + str(answerfpstomps))
+            print(f"your answer is: {answerfpstomps}")
             input("")
-        if int(fpstowhat) == 4:
+        elif int(fpstowhat) == 4:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Knots. Ok, now input how many FPS to Knots")
             fpstoknots = input("")
             answerfpstoknots = float(fpstoknots) / 1.688
-            print("your answer is: " + str(answerfpstoknots))
+            print(f"your answer is: {answerfpstoknots}")
             input("")
-    if int(speedoption) == 4:
+    elif int(speedoption) == 4:
         os.system('cls' if os.name == 'nt' else 'clear')
         print("MPS. Ok, now what do you want to convert that to?")
         os.system('cls' if os.name == 'nt' else 'clear')
@@ -896,30 +895,30 @@ def speed():
             print("MPH. Ok, now input how many MPS to MPH")
             mpstomph = input("")
             answermpstomph = float(mpstomph) * 2.237
-            print("your answer is " + str(answermpstomph))
+            print(f"your answer is {answermpstomph}")
             input("")
-        if int(mpstowhat) == 2:
+        elif int(mpstowhat) == 2:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("KPH. Ok, now input how many MPS to KPH")
             mpstokph = input("")
             answermpstokph = float(mpstokph)
-            print("your answer is: " + str(answermpstokph))
+            print(f"your answer is: {answermpstokph}")
             input("")
-        if int(mpstowhat) == 3:
+        elif int(mpstowhat) == 3:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("FPS. Ok, now input how many MPS to FPS")
             mpstofps = input("")
             answermpstofps = float(mpstofps) * 3.281
-            print("your answer is: " + str(answermpstofps))
+            print(f"your answer is: {answermpstofps}")
             input("")
-        if int(mpstowhat) == 4:
+        elif int(mpstowhat) == 4:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Knots. Ok, now input how many MPS to Knots")
             mpstoknots = input("")
             answermpstoknots = float(mpstoknots) * 1.944
-            print("your answer is: " + str(answermpstoknots))
+            print(f"your answer is: {answermpstoknots}")
             input("")
-    if int(speedoption) == 5:
+    elif int(speedoption) == 5:
         os.system('cls' if os.name == 'nt' else 'clear')
         print("Knots. Ok, now what do you want to convert that to?")
         os.system('cls' if os.name == 'nt' else 'clear')
@@ -930,28 +929,28 @@ def speed():
             print("MPH. Ok, now input how many Knots to MPH")
             knotstomph = input("")
             answerknotstomph = float(knotstomph) * 1.151
-            print("your answer is: " + str(answerknotstomph))
+            print(f"your answer is: {answerknotstomph}")
             input("")
-        if int(knotstowhat) == 2:
+        elif int(knotstowhat) == 2:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("KPH. Ok, now input how many Knots to KPH")
             knotstokph = input("")
             answerknotstokph = float(knotstokph) * 1.852
-            print("your answer is: " + str(answerknotstokph))
+            print(f"your answer is: {answerknotstokph}")
             input("")
-        if int(knotstowhat) == 3:
+        elif int(knotstowhat) == 3:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("FPS. Ok, now input how many Knots to FPS")
             knotstofps = input("")
             answerknotstofps = float(knotstofps) * 1.688
-            print("your answer is: " + str(answerknotstofps))
+            print(f"your answer is: {answerknotstofps}")
             input("")
-        if int(knotstowhat) == 4:
+        elif int(knotstowhat) == 4:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("MPS. Ok, now input how many Knots to MPS")
             knotstomps = input("")
             answerknotstomps = float(knotstomps) / 1.944
-            print("your answer is: " + str(answerknotstomps))
+            print(f"your answer is: {answerknotstomps}")
             input("")
 
 def temperature():  
@@ -968,16 +967,16 @@ def temperature():
             print("Fahrenheit. Ok, now input how many Celsius to Fahrenheit")
             celsiustofahrenheit = input("")
             answercelsiustofahrenheit = float(celsiustofahrenheit) * 1.8 + 32
-            print("your answer is: " + str(answercelsiustofahrenheit))
+            print(f"your answer is: {answercelsiustofahrenheit}")
             input("")
-        if int(celsiustowhat) == 2:
+        elif int(celsiustowhat) == 2:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Kelvin. Ok, now input how many Celsius to Kelvin")
             celsiustokelvin = input("")
             answercelsiustokelvin = float(celsiustokelvin) + 273.15
-            print("your answer is: " + str(answercelsiustokelvin))
+            print(f"your answer is: {answercelsiustokelvin}")
             input("")
-    if int(tempoption) == 2:
+    elif int(tempoption) == 2:
         os.system('cls' if os.name == 'nt' else 'clear')
         print("Fahrenheit. Ok, Now what do you want to convert that to?") 
         os.system('cls' if os.name == 'nt' else 'clear')
@@ -988,16 +987,16 @@ def temperature():
             print("Celsius. Ok, now input how many Fahrenheit to Celsius")
             fahrenheittocelsius = input("")
             answerfahrenheittocelsius = float(fahrenheittocelsius) - 32 * 0.5556
-            print("your answer is: " + str(answerfahrenheittocelsius))
+            print(f"your answer is: {answerfahrenheittocelsius}")
             input("")
-        if int(celsiustowhat) == 2:
+        elif int(fahrenheittowhat) == 2:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Kelvin. Ok, now input how many Fahrenheit to Kelvin")
             fahrenheittokelvin = input("")
             answerfahrenheittokelvin = float(fahrenheittokelvin) + 459.67 * 0.5556
-            print("your answer is: " + str(answerfahrenheittokelvin))
+            print(f"your answer is: {answerfahrenheittokelvin}")
             input("")
-    if int(tempoption) == 3:
+    elif int(tempoption) == 3:
         os.system('cls' if os.name == 'nt' else 'clear')
         print("Kelvin. Ok, Now what do you want to convert that to?") 
         os.system('cls' if os.name == 'nt' else 'clear')
@@ -1008,18 +1007,17 @@ def temperature():
             print("Celsius. Ok, now input how many Kelvin to Celsius")
             kelvintocelsius = input("")
             answerkelvintocelsius = float(kelvintocelsius) - 273.15
-            print("your answer is: " + str(answerkelvintocelsius))
+            print(f"your answer is: {answerkelvintocelsius}")
             input("")
-        if int(kelvintowhat) == 2:
+        elif int(kelvintowhat) == 2:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Fahrenheit. Ok, now input how many Kelvin to Fahrenheit")
             kelvintofahrenheit = input("")
             answerkelvintofahrenheit = float(kelvintofahrenheit) - 273.15 * 1.8 + 32
-            print("your answer is: " + str(answerkelvintofahrenheit))
+            print(f"your answer is: {answerkelvintofahrenheit}")
             input("")
 
 def frequency():
-    os.system('cls' if os.name == 'nt' else 'clear')
     print("1. Hertz\n2. Kilohertz\n3. Megahertz\n4. Gigahertz")
     freqoption = input("Select a number 1-4 for the corresponding unit")
     if int(freqoption) == 1:
@@ -1041,14 +1039,12 @@ def frequency():
             hertztomegahertz = input("")
             answerhertztomegahertz = float(hertztomegahertz) / 1000000
             print(f"your answer is: {answerhertztomegahertz}")
-            input("")
         elif int(hertztowhat) == 3:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Gigahertz. Ok, now input how many Hertz to Gigahertz")
             hertztogigahertz = input("")
             answerhertztogigahertz = float(hertztogigahertz) / 1000000000
             print(f"your answer is: {answerhertztogigahertz}")
-            input("")
     elif int(freqoption) == 2:
         os.system('cls' if os.name == 'nt' else 'clear')
         print("Kilohertz. Ok, now what do you want to convert that to?")
@@ -1060,7 +1056,6 @@ def frequency():
             kilohertztohertz = input("")
             answerkilohertztohertz = float(kilohertztohertz) * 1000
             print(f"your answer is: {answerkilohertztohertz}")
-            input("")
         elif int(kilohertztowhat) == 2:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Megahertz. Ok, now input how many Kilohertz to Megahertz")
@@ -1073,71 +1068,465 @@ def frequency():
             kilohertztogigahertz = input("")
             answerkilohertztogigahertz = float(kilohertztogigahertz) / 1000000
             print(f"your answer is {answerkilohertztogigahertz}")
-            input("")
-    elif int(freqoption) == 3:
+    elif int(freqoption) -- 3:
         os.system('cls' if os.name == 'nt' else 'clear')
-        print("Megahertz. Ok, now what do you want to convert that to?")
-        print("1. Hertz\n2. Kilohertz\n3. Gigahertz")
-        megahertztowhat = input("Select a number 1-3 for the corresponding unit")
-        if int(megahertztowhat) == 1:
-            os.system('cls' if os.name == 'nt' else 'clear') 
-            print("Hertz. Ok, now input how many Megahertz to Hertz")
-            megahertztohertz = input("")
-            answermegahertztohertz = float(megahertztohertz) * 1000000
-            print(f"your answer is: {answermegahertztohertz}")
-            input("")
-        elif int(megahertztowhat) == 2:
-            os.system('cls' if os.name == 'nt' else 'clear')
-            print("Kilohertz. Ok, now input how many Megahertz to Kilohertz")
-            megahertztokilohertz = input("")
-            answermegahertztokilohertz = float(megahertztokilohertz) * 1000
-            print(f"your answer is: {answermegahertztokilohertz}")
-            input("")
-        elif int(megahertztowhat) == 3:
-            os.system('cls' if os.name == 'nt' else 'clear')
-            print("Gigahertz. Ok, now input how many Megahertz to Gigahertz")
-            megahertztogigahertz = input("")
-            answermegahertztogigahertz = float(megahertztogigahertz) / 1000
-            print(f"your answer is {answermegahertztogigahertz}")
-            input("")
-    elif int(freqoption) == 4:
-        os.system('cls' if os.name == 'nt' else 'clear')
-        print("Gigahertz. Ok, now what do you want to convert that to?")
-        print("1. Hertz\n2. Kilohertz\n3. Megahertz")
-        gigahertztowhat = input("Select a number 1-3 for the corresponding unit")
-        if int(gigahertztowhat) == 1:
-            os.system('cls' if os.name == 'nt' else 'clear')
-            print("Hertz. Ok, now input how many Gigahertz to Hertz")
-            gigahertztohertz = input("")
-            answergigahertztohertz = float(gigahertztohertz) * 1000000000
-            print(f"your answer is: {answergigahertztohertz}")
-            input("")
-        elif int(gigahertztowhat) == 2:
-            os.system('cls' if os.name == 'nt' else 'clear')
-            print("Kilohertz. Ok, now input how many Gigahertz to Kilohertz")
-            gigahertztokilohertz = input("")
-            answergigahertztokilohertz = float(gigahertztokilohertz) * 1000000
-            print(f"your answer is: {answergigahertztokilohertz}")
-            input("")
-        elif int(gigahertztowhat) == 3:
-            os.system('cls' if os.name == 'nt' else 'clear')
-            print("Megahertz. Ok, now input how many Gigahertz to Megahertz")
-            gigahertztomegahertz = input("")
-            answergigahertztomegahertz = float(gigahertztomegahertz) / 1000
-            print(f"your answer is: {answergigahertztomegahertz}")
-            input("")
+        print("Megahertz. Ok, now what do you want to convert that to")
+        gigahertztomegahertz = input("")
+        answergigahertztomegahertz = float(gigahertztomegahertz) / 1000
+        print(f"your answer is: {answergigahertztomegahertz}")
+        input("")
 
+def area():
+    print("1. Square Kilometre\n2. Square Metre\n3. Square Mile\n4. Square Yard\n5. Square Foot\n6. Square Inch\n7. Hectare\n8. Acre")
+    areaoption = input("Select a number 1-8 for the corresponding unit: ")
+    if int(areaoption) == 1:
+        os.system('cls' if os.name == 'nt' else 'clear')
+        print("Square KM. Ok, now what do you want to convert that to?")
+        print("1. Square Metre\n2. Square Mile\n3. Square Yard\n4. Square Foot\n5. Square Inch\n6. Hectare\n7. Acre")
+        squarekmtowhat = input("Select a number 1-7 for the corresponding unit: ")
+        if int(squarekmtowhat) == 1:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Square M, Ok, now input how many Square KM to Square M")
+            squarekmtosquarem = input("")
+            answersquarekmtosquarem = float(squarekmtosquarem) * 1000000
+            print(f"your answer is: {answersquarekmtosquarem}")
+            input("")
+        elif int(squarekmtowhat) == 2:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Square MI. Ok, now input how many Square KM to Square MI")
+            squarekmtosquaremi = input("")
+            answersquarekmtosquaremi = float(squarekmtosquaremi) / 2.59
+            print(f"your answer is: {answersquarekmtosquaremi}")
+            input("")
+        elif int(squarekmtowhat) == 3:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Square Yard. Ok, now input how many Square KM to Square Yards")
+            squarekmtosquareyards = input("")
+            answersquarekmtosquareyards = float(squarekmtosquareyards) * 1196000
+            print(f"your answer is: {answersquarekmtosquareyards}")
+            input("")
+        elif int(squarekmtowhat) == 4:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Square Foot. Ok, now input how many Square KM to Square Feet")
+            squarekmtosquarefeet = input("")
+            answersquarekmtosquarefeet = float(squarekmtosquarefeet) * 10760000
+            print(f"your answer is: {answersquarekmtosquarefeet}")
+            input("")
+        elif int(squarekmtowhat) == 5:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Square Inch. Ok, now input how many Square KM to Square Inches")
+            squarekmtosquareinch = input("")
+            answersquarekmtosquareinch = float(squarekmtosquareinch) * 1550000000
+            print(f"your answer is: {answersquarekmtosquareinch}")
+            input("")
+        elif int(squarekmtowhat) == 6:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Hectare. Ok, now input how many Square KM to Hectares")
+            squarekmtohectare = input("")
+            answersquarekmtohectare = float(squarekmtohectare) * 100
+            print(f"your answer is: {answersquarekmtohectare}")
+            input("")
+        elif int(squarekmtowhat) == 7:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Acre. Ok, now input how many Square KM to Acres")
+            squarekmtoacres = input("")
+            answersquarekmtoacres = float(squarekmtoacres) * 247.1
+            print(f"your answer is {answersquarekmtoacres}")
+            input("")
+    elif int(areaoption) == 2:
+        os.system('cls' if os.name == 'nt' else 'clear')
+        print("Square M. Ok, now what do you want to convert that to?")
+        print("1. Square Kilometre\n2. Square Mile\n3. Square Yard\n4. Square Foot\n5. Square Inch\n6. Hectare\n7. Acre")
+        squaremtowhat = input("Select a number 1-7 for the corresponding unit: ")
+        if int(squaremtowhat) == 1:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Square KM. Ok, now input how many Square M to Square KM")
+            squaremtosquarekm = input("")
+            answersquaremtosquarekm = float(squaremtosquarekm) / 1000000
+            print(f"your answer is: {answersquaremtosquarekm}i) ")
+            input("")
+        elif int(squaremtowhat) == 2:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Square Mi. Ok, now input how many Square M to Square Mi")
+            squaremtosquaremi = input("")
+            answersquaremtosquaremi = float(squaremtosquaremi) / 2590000
+            print(f"your answer is: {answersquaremtosquaremi}")
+            input("")
+        elif int(squaremtowhat) == 3:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Square Yard. Ok, now input how many Square M to Square Yards")
+            squaremtosquareyards = input("")
+            answersquarekmtosquareyards = float(squaremtosquareyards) * 1.196
+            print(f"your answer is: {answersquarekmtosquareyards}")
+            input("")
+        elif int(squaremtowhat) == 4:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Square Foot. Ok, now input how many Square M to Square Feet")
+            squaremtosquarefeet = input("")
+            answersquaremtosquarefoot = float(squaremtosquarefeet) * 10.764
+            print(f"your answer is: {answersquaremtosquarefoot}")
+            input("")
+        elif int(squaremtowhat) == 5:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Square Inch. Ok, now input how many Square M to Square Inches")
+            squaremtosquareinch = input("")
+            answersquaremtosquareinches = float(squaremtosquareinch) * 1550
+            print(f"your answer is: {answersquaremtosquareinches}")
+            input("")
+        elif int(squaremtowhat) == 6:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Hectare. Ok, now input how many Square M to Hectares")
+            squaremtohectare = input("")
+            answersquaremtohectare = float(squaremtohectare) / 10000
+            print(f"your answer is: {answersquaremtohectare}")
+            input("")
+        elif int(squaremtowhat) == 7:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Acre. Ok, now input how many Square M to Acres")
+            squaremtoacre = input("")
+            answersquaremtoacre = float(squaremtoacre) / 4047
+            print(f"your answer is: {answersquaremtoacre}")
+            input("")
+    elif int(areaoption) == 3:
+        os.system('cls' if os.name == 'nt' else 'clear')
+        print("Square MI. Ok, now what do you want to convert that to?")
+        print("1. Square Kilometre\n2. Square Metre\n3. Square Yard\n4. Square Foot\n5. Square Inch\n6. Hectare\n7. Acre")
+        squaremitowhat = input("Select a number 1-7 for the corresponding unit: ")
+        if int(squaremitowhat) == 1:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Square KM. Ok, now input how many Square MI to Square KM")
+            squaremitosquarekm = input("")
+            answersquaremitosquarekm = float(squaremitosquarekm) * 2.59 
+            print(f"your answer is: {answersquaremitosquarekm}")
+            input("")
+        elif int(squaremitowhat) == 2:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Square M. Ok, now input how many Square MI to Square Ms")
+            squaremitosquarem = input("")
+            answersquaremitosquarem = float(squaremitosquarem) * 2590000
+            print(f"your answer is: {answersquaremitosquarem}") 
+            input("") 
+        elif int(squaremitowhat) == 3:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Square Yard. Ok, now input how many Square MI to Square Yards")
+            squaremitosquareyard = input("")
+            answersquaremitosquareyard = float(squaremitosquareyard) * 3098000
+            print(f"your answer is: {answersquaremitosquareyard}") 
+            input("") 
+        elif int(squaremitowhat) == 4:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Square Foot. Ok, now input how many Square MI to Square Feet")
+            squaremitosquarefeet = input("")
+            answersquaremitosquarefeet = float(squaremitosquarefeet) * 27880000
+            print(f"your answer is: {answersquaremitosquarefeet}") 
+            input("")
+        elif int(squaremitowhat) == 5:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Square Inch. Ok, now input how many Square MI to Square Inches")
+            squaremitosquareinch = input("")
+            answersquaremitosquareinch = float(squaremitosquareinch) * 4014000000
+            print(f"your answer is: {answersquaremitosquareinch}") 
+            input("")
+        elif int(squaremitowhat) == 6:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Hectare. Ok, now input how many Square MI to Hectares")
+            squaremitohectare = input("")
+            answersquaremitohectare = float(squaremitohectare) * 259
+            print(f"your answer is: {answersquaremitohectare}") 
+            input("")
+        elif int(squaremitowhat) == 7:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Acre. Ok, now input how many Square MI to Acres")
+            squaremitoacre = input("")
+            answersquaremitoacre = float(squaremitoacre) * 640
+            print(f"your answer is: {answersquaremitoacre}") 
+            input("")
+    elif int(areaoption) == 4:
+        os.system('cls' if os.name == 'nt' else 'clear')
+        print("Square Yard. Ok, now what do you want to convert that to?")
+        print("1. Square Kilometre\n2. Square Metre\n3. Square Miles\n4. Square Foot\n5. Square Inch\n6. Hectare\n7. Acre")
+        squareyardtowhat = input("Select a number 1-7 for the corresponding unit: ")
+        if int(squareyardtowhat) == 1:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Square KM. Ok, now input how many Square Yards to Square KM")
+            squareyardstosquarekm = input("")
+            answersquareyardstosquarekm = float(squareyardstosquarekm) * 1196000
+            print(f"your answer is: {answersquareyardstosquarekm}")
+            input("")
+        elif int(squareyardtowhat) == 2:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Square M. Ok, now input how many Square Yards to Square Ms")
+            squareyardtosquarem = input("")
+            answersquareyardtosquarem = float(squareyardtosquarem) / 1.196
+            print(f"your answer is: {answersquareyardtosquarem}") 
+            input("") 
+        elif int(squareyardtowhat) == 3:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Square Miles. Ok, now input how many Square Yards to Square Mi")
+            squareyardstosquaremi = input("")
+            answersquareyardstosquaremi = float(squareyardstosquaremi) / 3098000
+            print(f"your answer is: {answersquareyardstosquaremi}") 
+            input("") 
+        elif int(squareyardtowhat) == 4:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Square Foot. Ok, now input how many Square Yards to Square Feet")
+            squareyardtosquarefeet = input("")
+            answersquareyardtosquarefeet = float(squareyardtosquarefeet) * 9
+            print(f"your answer is: {answersquareyardtosquarefeet}") 
+            input("")
+        elif int(squareyardtowhat) == 5:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Square Inch. Ok, now input how many Square Yards to Square Inches")
+            squareyardtosquareinch = input("")
+            answersquareyardtosquareinch = float(squareyardtosquareinch) * 1296
+            print(f"your answer is: {answersquareyardtosquareinch}") 
+            input("")
+        elif int(squareyardtowhat) == 6:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Hectare. Ok, now input how many Square Yards to Hectares")
+            squareyardtohectare = input("")
+            answersquareyardtohectare = float(squareyardtohectare) * 259
+            print(f"your answer is: {answersquareyardtohectare}") 
+            input("")
+        elif int(squareyardtowhat) == 7:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Acres. Ok, now input how many Yards to Acres")
+            squareyardtoacre = input("")
+            answersquareyardtoacre = float(squareyardtoacre) / 4840
+            print(f"your answer is: {answersquareyardtoacre}") 
+            input("")
+    elif int(areaoption) == 5:
+        os.system('cls' if os.name == 'nt' else 'clear')
+        print("Square Feet. Ok, now what do you want to convert that to?")
+        print("1. Square Kilometre\n2. Square Metre\n3. Square Miles\n4. Square Yard\n5. Square Inch\n6. Hectare\n7. Acre")
+        squarefoottowhat = input("Select a number 1-7 for the corresponding unit: ")
+        if int(squarefoottowhat) == 1:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Square KM. Ok, now input how many Square Feet to Square KM")
+            squarefoottosquarekm = input("")
+            answersquarefoottosquarekm = float(squarefoottosquarekm) / 10760000
+            print(f"your answer is: {answersquarefoottosquarekm}")
+            input("")
+        elif int(squarefoottowhat) == 2:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Square M. Ok, now input how many Square Feet to Square Ms")
+            squarefoottosquarem = input("")
+            answersquarefoottosquarem = float(squarefoottosquarem) / 10.764
+            print(f"your answer is: {answersquarefoottosquarem}") 
+            input("") 
+        elif int(squarefoottowhat) == 3:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Square Miles. Ok, now input how many Square Feet to Square Mi")
+            squarefoottosquaremi = input("")
+            answersquarefoottosquaremi = float(squarefoottosquaremi) / 27880000
+            print(f"your answer is: {answersquarefoottosquaremi}") 
+            input("") 
+        elif int(squarefoottowhat) == 4:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Square Yard. Ok, now input how many Square Feet to Square Yards")
+            squarefeettosquareyards = input("")
+            answersquarefeettosquareyards = float(squarefeettosquareyards) / 9
+            print(f"your answer is: {answersquarefeettosquareyards}") 
+            input("")
+        elif int(squarefoottowhat) == 5:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Square Inch. Ok, now input how many Square Feet to Square Inches")
+            squarefoottosquareinch = input("")
+            answersquarefeettosquareinch = float(squarefoottosquareinch) * 1296
+            print(f"your answer is: {answersquarefeettosquareinch}") 
+            input("")
+        elif int(squarefoottowhat) == 6:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Hectare. Ok, now input how many Square Feet to Hectares")
+            squarefeettohectare = input("")
+            answersquarefeettohectare = float(squarefeettohectare) / 107600
+            print(f"your answer is: {answersquarefeettohectare}") 
+            input("")
+        elif int(squarefoottowhat) == 7:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Acres. Ok, now input how many Square Feet to Acres")
+            squarefeettoacre = input("")
+            answersquarefeettoacre = float(squarefeettoacre) / 43560
+            print(f"your answer is: {answersquarefeettoacre}") 
+            input("")
+    elif int(areaoption) == 6:
+        os.system('cls' if os.name == 'nt' else 'clear')
+        print("Square Inch. Ok, now what do you want to convert that to?")
+        print("1. Square Kilometre\n2. Square Metre\n3. Square Miles\n4. Square Yard\n5. Square Foot\n6. Hectare\n7. Acre")
+        squareinchtowhat = input("Select a number 1-7 for the corresponding unit: ")
+        if int(squareinchtowhat) == 1:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Square KM. Ok, now input how many Square Inches to Square KM")
+            squareinchtosquarekm = input("")
+            answersquareinchtosquarekm = float(squareinchtosquarekm) / 1550000000
+            print(f"your answer is: {answersquareinchtosquarekm}")
+            input("")
+        elif int(squareinchtowhat) == 2:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Square M. Ok, now input how many Square Inches to Square Ms")
+            squareinchtosquarem = input("")
+            answersquareinchtosquarem = float(squareinchtosquarem) / 1550
+            print(f"your answer is: {answersquareinchtosquarem}") 
+            input("") 
+        elif int(squareinchtowhat) == 3:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Square Miles. Ok, now input how many Square Inches to Square Mi")
+            squareinchtosquaremi = input("")
+            answersquareinchtosquaremi = float(squareinchtosquaremi) / 4014000000
+            print(f"your answer is: {answersquareinchtosquaremi}") 
+            input("") 
+        elif int(squareinchtowhat) == 4:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Square Yard. Ok, now input how many Square Inches to Square Yards")
+            squareinchtosquareyards = input("")
+            answersquareinchtosquareyards = float(squareinchtosquareyards) / 1296
+            print(f"your answer is: {answersquareinchtosquareyards}") 
+            input("")
+        elif int(squareinchtowhat) == 5:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Square Foot. Ok, now input how many Square Inches to Square Feet")
+            squareinchtosquarefoot = input("")
+            answersquareinchtosquarefoot = float(squareinchtosquarefoot) / 144
+            print(f"your answer is: {answersquareinchtosquarefoot}") 
+            input("")
+        elif int(squareinchtowhat) == 6:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Hectare. Ok, now input how many Square Inches to Hectares")
+            squareinchtohectare = input("")
+            answersquareinchtohectare = float(squareinchtohectare) / 15500000
+            print(f"your answer is: {answersquareinchtohectare}") 
+            input("")
+        elif int(squareinchtowhat) == 7:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Acres. Ok, now input how many Square Feet to Acres")
+            squareinchtoacre = input("")
+            answersquareinchtoacre = float(squareinchtoacre) / 6273000
+            print(f"your answer is: {answersquareinchtoacre}") 
+            input("") 
+     
+    elif int(areaoption) == 7:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Hectare. Ok, now what do you want to convert that to?")
+            print("1. Square Kilometre\n2. Square Metre\n3. Square Miles\n4. Square Yard\n5. Square Foot\n6. Square Inch\n7. Acre")
+            hectaretowhat = input("Select a number 1-7 for the corresponding unit: ")
+            if int(hectaretowhat) == 1:
+                os.system('cls' if os.name == 'nt' else 'clear')
+                print("Square KM. Ok, now input how many Hectares to Square KM")
+                hectaretosquarekm = input("")
+                answerhectaretosquarekm = float(hectaretosquarekm) / 100
+                print(f"your answer is: {answerhectaretosquarekm}")
+                input("")
+            elif int(hectaretowhat) == 2:
+                os.system('cls' if os.name == 'nt' else 'clear')
+                print("Square M. Ok, now input how many Hectares to Square Ms")
+                hectaretosquarem = input("")
+                answerhectaretosquarem = float(hectaretosquarem) * 10000
+                print(f"your answer is: {answerhectaretosquarem}") 
+                input("") 
+            elif int(hectaretowhat) == 3:
+                os.system('cls' if os.name == 'nt' else 'clear')
+                print("Square Miles. Ok, now input how many Hectares to Square Mi")
+                hectaretosquaremi = input("")
+                answerhectaretosquaremi = float(hectaretosquaremi) / 259
+                print(f"your answer is: {answerhectaretosquaremi}") 
+                input("") 
+            elif int(hectaretowhat) == 4:
+                os.system('cls' if os.name == 'nt' else 'clear')
+                print("Square Yard. Ok, now input how many Hectares to Square Yards")
+                hectaretosquareyards = input("")
+                answerhectaretosquareyards = float(hectaretosquareyards) * 11960
+                print(f"your answer is: {answerhectaretosquareyards}") 
+                input("")
+            elif int(hectaretowhat) == 5:
+                os.system('cls' if os.name == 'nt' else 'clear')
+                print("Square Foot. Ok, now input how many Hectares to Square Feet")
+                hectaretosquarefoot = input("")
+                answerhectaretosquarefoot = float(hectaretosquarefoot) * 107600
+                print(f"your answer is: {answerhectaretosquarefoot}") 
+                input("")
+            elif int(hectaretowhat) == 6:
+                os.system('cls' if os.name == 'nt' else 'clear')
+                print("Hectare. Ok, now input how many Hectares to Square Inches")
+                hectaretosquareinch = input("")
+                answerhectaretosquareinch = float(hectaretosquareinch) * 1550000000
+                print(f"your answer is: {answerhectaretosquareinch}") 
+                input("")
+            elif int(hectaretowhat) == 7:
+                os.system('cls' if os.name == 'nt' else 'clear')
+                print("Acres. Ok, now input how many Square Feet to Acres")
+                hectaretoacre = input("")
+                answerhectaretoacre = float(hectaretoacre) * 2.471
+                print(f"your answer is: {answerhectaretoacre}") 
+                input("")   
+
+    
+    elif int(areaoption) == 8:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("acre. Ok, now what do you want to convert that to?")
+            print("1. Square Kilometre\n2. Square Metre\n3. Square Miles\n4. Square Yard\n5. Square Foot\n6. Square Inch\n7. acre")
+            acretowhat = input("Select a number 1-7 for the corresponding unit: ")
+            if int(acretowhat) == 1:
+                os.system('cls' if os.name == 'nt' else 'clear')
+                print("Square KM. Ok, now input how many acres to Square KM")
+                acretosquarekm = input("")
+                answeracretosquarekm = float(acretosquarekm) / 247.1
+                print(f"your answer is: {answeracretosquarekm}")
+                input("")
+            elif int(acretowhat) == 2:
+                os.system('cls' if os.name == 'nt' else 'clear')
+                print("Square M. Ok, now input how many acres to Square Ms")
+                acretosquarem = input("")
+                answeracretosquarem = float(acretosquarem) / 4047
+                print(f"your answer is: {answeracretosquarem}") 
+                input("") 
+            elif int(acretowhat) == 3:
+                os.system('cls' if os.name == 'nt' else 'clear')
+                print("Square Miles. Ok, now input how many acres to Square Mi")
+                acretosquaremi = input("")
+                answeracretosquaremi = float(acretosquaremi) / 640
+                print(f"your answer is: {answeracretosquaremi}") 
+                input("") 
+            elif int(acretowhat) == 4:
+                os.system('cls' if os.name == 'nt' else 'clear')
+                print("Square Yard. Ok, now input how many acres to Square Yards")
+                acretosquareyards = input("")
+                answeracretosquareyards = float(acretosquareyards) * 4840
+                print(f"your answer is: {answeracretosquareyards}") 
+                input("")
+            elif int(acretowhat) == 5:
+                os.system('cls' if os.name == 'nt' else 'clear')
+                print("Square Foot. Ok, now input how many acres to Square Feet")
+                acretosquarefoot = input("")
+                answeracretosquarefoot = float(acretosquarefoot) * 43560
+                print(f"your answer is: {answeracretosquarefoot}") 
+                input("")
+            elif int(acretowhat) == 6:
+                os.system('cls' if os.name == 'nt' else 'clear')
+                print("acre. Ok, now input how many Acres to Square Inches")
+                acretosquareinch = input("")
+                answeracretosquareinch = float(acretosquareinch) / 6273000
+                print(f"your answer is: {answeracretosquareinch}") 
+                input("")
+            elif int(acretowhat) == 7:
+                os.system('cls' if os.name == 'nt' else 'clear')
+                print("Hectares. Ok, now input how many Acres to Hectares")
+                acretohectare = input("")
+                answeracretohectare = float(acretohectare) / 2.471
+                print(f"your answer is: {answeracretohectare}") 
+                input("")             
+                 
 
 print("Welcome to ConvertU")
 time.sleep(1)
 os.system('cls' if os.name == 'nt' else 'clear')
-print("1. Mass\n2. Digital Storage\n3. Length\n4. Speed\n5. Temperature\n6. Frequency ")
-option1 = input("Select a number 1-6 for the corresponding unit type: ")
+print("1. Mass\n2. Digital Storage\n3. Length\n4. Speed\n5. Temperature\n6. Frequency\n7. Area")
+option1 = input("Select a number 1-7 for the corresponding unit type: ")
 os.system('cls' if os.name == 'nt' else 'clear')
 
 
+
 if int(option1) == 1:
-    mass()
+    mass() 
 elif int(option1) == 2:
     storage()
 elif int(option1) == 3:
@@ -1148,3 +1537,5 @@ elif int(option1) == 5:
     temperature()
 elif int(option1) == 6:
     frequency()
+elif int(option1) == 7:
+    area()
