@@ -10,6 +10,8 @@
 ## twitch.tv/photonmastr
 ## github.com/photonmastr
 ## twitter.com/photonmastr
+## With help of Triman
+## github.com/lildemonn
 
 import os
 import time
