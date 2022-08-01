@@ -7,6 +7,8 @@ A CLI converter for Mass, Digital Storage, Length, Speed, Temperature, Frequency
 
 - FOSS, You are free to modify, read, distribute the code as outlined in GPL3
 
+- Feel Free to make your own forks of it! Modify however you want you don't have to rely on me
+
 
 
 
