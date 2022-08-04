@@ -5,12 +5,11 @@
 ##\____/\____/\_/  \|\__/  \____\\_/\_\  \_/  \____/
 ##                                                
 ## Written In Python
-## By Tristan
+## By Tristan And Triman    
 ## Aka PhotonMastr
 ## twitch.tv/photonmastr
 ## github.com/photonmastr
 ## twitter.com/photonmastr
-## With help of Triman
 ## github.com/lildemonn
 
 import os
@@ -1517,12 +1516,187 @@ def area():
                 print(f"your answer is: {answeracretohectare}") 
                 input("")             
                  
+         
+def timee():
+    print("1. Millisecond\n2. Seconds\n3. Minutes\n4. Hours\n5. Days")
+    timeoption = input("Select a number 1-5 for the corresponding unit")
+    if int(timeoption) == 1:
+        os.system('cls' if os.name == 'nt' else 'clear')
+        print("Milliseconds. Ok, now what do you want to convert that to?")
+        print("1. Seconds\n2. Minutes\n3. Hours\n4. Days")
+        mstowhat = input("Select a number 1-4 for the corresponding unit: ")
+        if int(mstowhat) == 1:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Seconds. Ok, now input how many Milliseconds to Seconds")
+            mstosec = input("")
+            answermstosec = float(mstosec) / 1000
+            print(f"your answer is: {answermstosec}")
+            input("")
+        elif int(mstowhat) == 2:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Minutes. Ok, now input how many Milliseconds to Minutes")
+            mstomin = input("")
+            answermstomin = float(mstomin) / 60000
+            print(f"your answer is {answermstomin}")
+            input("")
+        elif int(mstowhat) == 3:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Hours. Ok, now input how many Milliseconds to Hours")
+            mstohour = input("")
+            answermstohour = float(mstohour) / 3600000
+            print(f"your answer is {answermstohour}")
+            input("")
+        elif int(mstowhat) == 4:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Days. Ok, now input how many Milliseconds to Days")
+            mstodays = input("")
+            answermstodays = float(mstodays) / 86400000
+            print(f"your answer is: {answermstodays}")
+            input("")
+    elif int(timeoption) == 2:             
+        os.system('cls' if os.name == 'nt' else 'clear')
+        print("Seconds. Ok, now what do you want to convert that to?")
+        print("1. Milliseconds\n2. Minutes\n3. Hours\n4. Days")
+        sectowhat = input("Select a number 1-4 for the corresponding unit: ")
+        if int(sectowhat) == 1:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Milliseconds. Ok, now input how many Seconds to Milliseconds")
+            sectoms = input("")
+            answersectoms = float(sectoms) * 1000
+            print(f"your answer is: {answersectoms}")
+            input("")
+        elif int(sectowhat) == 2:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Minutes. Ok, now input how many Seconds to Minutes")
+            sectomins = input("")
+            answersectomins = float(sectomins) / 60 
+            print(f"your answer is: {answersectomins}")
+            input("")
+        elif int(sectowhat) == 3:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Hours. Ok, now input how many Seconds to Hours")
+            sectohours = input("")
+            answersectohours = float(sectohours) / 3600 
+            print(f"your answer is: {answersectohours}")
+            input("")
+        elif int(sectowhat) == 4:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Days. Ok, now input how many Seconds to Days")
+            sectodays = input("")
+            answersectodays = float(sectodays) / 86400
+            print(f"your answer is: {answersectodays}")
+            input("")
+    elif int(timeoption) == 3:
+       os.system('cls' if os.name == 'nt' else 'clear')
+       print("Minutes. Ok, now what do you want to convert that to?")
+       print("1. Milliseconds\n2. Seconds\n3. Hours\n4. Days")
+       mintowhat = input("Select a number 1-4 for the corresponding unit: ")
+       if int(mintowhat) == 1:
+           os.system('cls' if os.name == 'nt' else 'clear')
+           print("Milliseconds. Ok, now input how many Minutes to Milliseconds")
+           mintoms = input("")
+           answermintoms = float(mintoms) * 60000
+           print(f"your answer is: {answermintoms}")
+           input("")
+       elif int(mintowhat) == 2:
+           os.system('cls' if os.name == 'nt' else 'clear')
+           print("Seconds. Ok, now input how many Minutes to Seconds")
+           mintosec = input("")
+           answermintosec = float(mintosec) * 60
+           print(f"your answer is: {answermintosec}")
+           input("")
+       elif int(mintowhat) == 3:
+           os.system('cls' if os.name == 'nt' else 'clear')
+           print("Hours. Ok, now input how many Minutes to Hours")
+           mintohr = input("")
+           answermintohr = float(mintohr) / 60
+           print(f"your answer is: {answermintohr}")
+           input("")
+       elif int(mintowhat) == 4:
+           os.system('cls' if os.name == 'nt' else 'clear')
+           print("Days. Ok, now input how many Minutes to Days")
+           mintodays = input("")
+           answermintodays = float(mintodays) / 1440
+           print(f"your answer is: {answermintodays}")
+           input("")
+    elif int(timeoption) == 4:
+        os.system('cls' if os.name == 'nt' else 'clear')
+        print("Hours. Ok, now what do you want to convert that to?")
+        print("1. Milliseconds\n2. Seconds\n3. Minutes\n4. Days")
+        hrtowhat = input("Select a number 1-4 for the corresponding unit: ")
+        if int(hrtowhat) == 1:
+           os.system('cls' if os.name == 'nt' else 'clear')
+           print("Milliseconds. Ok, now input how many Hours to Milliseconds")
+           hrtoms = input("")
+           answerhrtoms = float(hrtoms) * 3600000
+           print(f"your answer is: {answerhrtoms}")
+           input("")
+        elif int(hrtowhat) == 2:
+           os.system('cls' if os.name == 'nt' else 'clear')
+           print("Seconds. Ok, now input how many Hours to Seconds")
+           hrtosec = input("")
+           answerhrtosec = float(hrtosec) * 3600
+           print(f"your answer is: {answerhrtosec}")
+           input("")
+        elif int(hrtowhat) == 3:
+           os.system('cls' if os.name == 'nt' else 'clear')
+           print("Minutes. Ok, now input how many Hours to Minutes")
+           hrtomin = input("")
+           answerhrtomin = float(hrtomin) * 60 
+           print(f"your answer is: {answerhrtomin}")
+           input("")
+        elif int(hrtowhat) == 4:
+           os.system('cls' if os.name == 'nt' else 'clear')
+           print("Days. Ok, now input how many Hours to Days")
+           hrtodays = input("")
+           answerhrtodays = float(hrtodays) / 24 
+           print(f"your answer is: {answerhrtodays}")
+           input("")
+    elif int(timeoption) == 5:
+        os.system('cls' if os.name == 'nt' else 'clear')
+        print("Days. Ok, now what do you want to convert that to?")
+        print("1. Milliseconds\n2. Seconds\n3. Minutes\n4. Hours")
+        daytowhat = input("Select a number 1-4 for the corresponding unit: ")
+        if int(daytowhat) == 1:
+           os.system('cls' if os.name == 'nt' else 'clear')
+           print("Milliseconds. Ok, now input how many Days to Milliseconds")
+           daystoms = input("")
+           answerdaystoms = float(daystoms) * 86400000
+           print(f"your answer is: {answerdaystoms}")
+           input("")
+        elif int(daytowhat) == 2:
+           os.system('cls' if os.name == 'nt' else 'clear')
+           print("Seconds. Ok, now input how many Days to Seconds")
+           daystosec = input("")
+           answerdaystosec = float(daystosec) * 86400
+           print(f"your answer is: {answerdaystosec}")
+           input("")
+        elif int(daytowhat) == 3:
+           os.system('cls' if os.name == 'nt' else 'clear')
+           print("Minutes. Ok, now input how many Days to Minutes")
+           daystomin = input("")
+           answerdaystomin = float(daystomin) * 1440
+           print(f"your answer is: {answerdaystomin}")
+           input("")
+        elif int(daytowhat) == 4:
+           os.system('cls' if os.name == 'nt' else 'clear')
+           print("Hours. Ok, now input how many Days to Hours")
+           daystohr = input("")
+           answerdaystohr = float(daystohr) / 24 
+           print(f"your answer is: {answerdaystohr}")
+           input("")
+
+
+
+
+    
+
 
 print("Welcome to ConvertU")
 time.sleep(1)
 os.system('cls' if os.name == 'nt' else 'clear')
-print("1. Mass\n2. Digital Storage\n3. Length\n4. Speed\n5. Temperature\n6. Frequency\n7. Area")
-option1 = input("Select a number 1-7 for the corresponding unit type: ")
+print("1. Mass\n2. Digital Storage\n3. Length\n4. Speed\n5. Temperature\n6. Frequency\n7. Area\n8. Time")
+option1 = input("Select a number 1-8 for the corresponding unit type: ")
 os.system('cls' if os.name == 'nt' else 'clear')
 
 
@@ -1541,3 +1715,5 @@ elif int(option1) == 6:
     frequency()
 elif int(option1) == 7:
     area()
+elif int(option1) == 8:
+    timee()
