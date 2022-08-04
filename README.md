@@ -43,7 +43,8 @@ And it should download a file in your Downloads folder. I'm sure if you've used 
 
 
 
-<h1> NOTE: An installer is coming in the future so this is less of a hassle </h1>
+<h1> Discord Server </h1>
+<p>Wanna be possibly involved in the project, wanna talk to me? Need to ask questions? Well the <a href="https://discord.gg/dKbJVwRfpE">Discord Server</a> is the right place for you</p>
 
 <img src="https://cdn.discordapp.com/attachments/655147160190320651/1000954703653380117/Logo.png" alt="ConvertU" width="100" height="100"/>
 <p>ConvertU-CLI</p>
