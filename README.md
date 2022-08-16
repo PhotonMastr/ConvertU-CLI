@@ -56,7 +56,7 @@ and the script should run with no issues. Or, for simplicity you can simply clic
 
 <h1>Windows</h1> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Windows_logo_-_2012.png/800px-Windows_logo_-_2012.png" alt="linux" width="40" height="40"/>
 Go to the <a href="https://github.com/PhotonMastr/ConvertU-CLI/releases">Releases Page</a>
-Click on the text ConvertU-CLI-[version here].exe
+Click on the text ConvertU-CLI-[version here]-Windows.exe
 <img src="https://cdn.discordapp.com/attachments/655147160190320651/1008406894320304178/Screen_Shot_2022-08-14_at_12.08.16_PM.png" width="200"/>
 And it should download a file in your Downloads folder. I'm sure if you've used windows before... you know the drill. Double click the file and it just works
 
