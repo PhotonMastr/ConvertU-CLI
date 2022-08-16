@@ -67,4 +67,4 @@ And it should download a file in your Downloads folder. I'm sure if you've used 
 
 <img src="https://cdn.discordapp.com/attachments/655147160190320651/1000954703653380117/Logo.png" alt="ConvertU" width="100" height="100"/>
 <p>ConvertU-CLI</p>
-<p>Line count: 1719
+<p>Line count: 1975
