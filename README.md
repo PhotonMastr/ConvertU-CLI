@@ -25,7 +25,7 @@ Very simple to modify and read the source code.
 <h1>Linux & MacOS</h1>
 
 
-Please note the following dependencies
+<h1>Please note the following dependencies</h1>
 
 Python
 
@@ -34,7 +34,7 @@ Install Python and Pip. For instructions please check the <a href="https://pytho
 
 
 
-
+<h1>Now for installation</h1>
 <p>You guys are lucky. You guys have installers. Simply run
 
 ```sh
