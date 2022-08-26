@@ -22,38 +22,62 @@ Very simple to modify and read the source code.
 -------------------------------------------------------------------------------------------------------------------
 <h1>HOW TO RUN</h1>
 
-<h1>Linux</h1> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/>
-Go to the <a href="https://github.com/PhotonMastr/ConvertU-CLI/releases">Releases Page</a>
-click on the text ConvertU-CLI-[Version]-Linux
-<img src="https://cdn.discordapp.com/attachments/655147160190320651/1008405129004859402/Screen_Shot_2022-08-14_at_12.00.59_PM.png" width="200"/>
-And it should download a file in your Downloads folder called ConvertU-Linux. Once you have that in your downloads open a terminal and cd into Downloads (or whatever directory the file is in). Once you are Cd'd in just run 
+<h1>Linux & MacOS</h1>
+
+
+Please note the following dependencies
+
+Python
+
+Install Python and Pip. For instructions please check the <a href="https://python.org/downloads/">Downloads website</a>
+
+
+
+
+
+<p>You guys are lucky. You guys have installers. Simply run
 
 ```sh
-chmod +x ConvertU-CLI-[Version]-Linux
+git clone https://github.com/PhotonMastr/ConvertU-CLI
 ```
 
-and then 
+and then run
 
 ```sh
-./ConvertU-CLI-[Version]-Linux
+cd ConvertU-CLI
 ```
-and the script should run with no issues
 
-
-<h1>MacOS</h1> <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Apple-logo.png" alt="linux" width="40" height="40"/>
-Go to the <a href="https://github.com/PhotonMastr/ConvertU-CLI/releases">Releases Page</a>
-Click on the text ConvertU-CLI-[version here]-MacOS
-<img src="https://cdn.discordapp.com/attachments/655147160190320651/1008405897632022529/Screen_Shot_2022-08-14_at_12.04.41_PM.png" width="200"/>
-And it should download a file in your Downloads folder called ConvertU-MacOS. Once you have that in your downloads open a terminal and cd into Downloads (or whatever directory the file is in). Once you are Cd'd in just run 
+Now, you have to note what shell you're using. IF you know what shell you are using ignore this commmand but if you do not run this command
 
 ```sh
-./ConvertU-[Version]-MacOS 
+ps -p $$
+``` 
+it should print out the following...
+
+<img src="https://cdn.discordapp.com/attachments/655147160190320651/1012858210652266597/unknown.png" width="200"/>
+now this is where the shell name is 
+<img src="https://cdn.discordapp.com/attachments/655147160190320651/1012858388604010626/unknown.png" width="200"/>
+
+Once you have noted your shell name simply run 
+
+```sh
+chmod +x install-[shell name].sh
 ```
 
-and the script should run with no issues. Or, for simplicity you can simply click on the file 
+and then
 
-<img src="https://cdn.discordapp.com/attachments/655147160190320651/998064778683617360/Screen_Shot_2022-07-16_at_11.12.31_PM.png" width="200"/>
+```sh
+./install-[shell name.sh]
+```
 
+It will tell you when it is installed. Now that it is installed you can run 
+
+```sh
+ConvertU
+```
+
+And that's it for Linux/MacOS
+ 
 <h1>Windows</h1> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Windows_logo_-_2012.png/800px-Windows_logo_-_2012.png" alt="linux" width="40" height="40"/>
 Go to the <a href="https://github.com/PhotonMastr/ConvertU-CLI/releases">Releases Page</a>
 Click on the text ConvertU-CLI-[version here]-Windows.exe
