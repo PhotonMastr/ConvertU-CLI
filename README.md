@@ -1,4 +1,4 @@
-## ConvertU
+# ConvertU
 A CLI converter for Mass, Digital Storage, Length, Speed, Temperature, Frequency, Area, Time... Written in Python
 -------------------------------------------------------------------------------------------------------------------
 <h1>Why ConvertU?</h1>
