@@ -31,7 +31,9 @@ Python
 
 Install Python and Pip. For instructions please check the <a href="https://python.org/downloads/">Downloads website</a>
 
+Git
 
+To git clone of course! 
 
 
 <h1>Now for installation</h1>
