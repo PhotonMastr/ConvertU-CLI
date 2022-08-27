@@ -59,8 +59,11 @@ it should print out the following...
 <img src="https://cdn.discordapp.com/attachments/655147160190320651/1012858210652266597/unknown.png" width="200"/>
 now this is where the shell name is 
 <img src="https://cdn.discordapp.com/attachments/655147160190320651/1012858388604010626/unknown.png" width="200"/>
+IF it prints this 
+<img src="https://cdn.discordapp.com/attachments/655147160190320651/1013234044441460736/unknown.png" width="200"/>
+that means that you're on fish, don't worry about the error but it is telling you you're on fish shell so in that case use the fish install script!
 
-Once you have noted your shell name simply run 
+Once you have all of this noted, simply run 
 
 ```sh
 chmod +x install-[shell name].sh
