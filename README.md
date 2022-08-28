@@ -33,7 +33,7 @@ Index
 
 ## Why ConvertU?
 
-- It has a bunch of different units. We don't have an installer right now but for now you can just make shortcuts in your searchbar to easily access ConvertU
+- It has a bunch of different units, and very easy to use installer for Linux and MacOS.
 
 - FOSS, You are free to modify, read, distribute the code as outlined in GPL3
 
@@ -70,7 +70,7 @@ and then run
 cd ConvertU-CLI
 ```
 
-Now, you have to note what shell you're using. IF you know what shell you are using ignore this commmand but if you do not run this command
+Now, you have to note what shell you're using. IF you know what shell you are using ignore this command but if you do not run this command
 
 ```sh
 ps -p $$
