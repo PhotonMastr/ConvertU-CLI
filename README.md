@@ -1,7 +1,37 @@
 # ConvertU
 A CLI converter for Mass, Digital Storage, Length, Speed, Temperature, Frequency, Area, Time... Written in Python
 -------------------------------------------------------------------------------------------------------------------
-<h1>Why ConvertU?</h1>
+
+Index 
+
+* [Why ConvertU?](#why-convertu)
+* [How to run](#how-to-run) 
+   * [MacOS and Linux](#macos-and-linux)
+   * [MacOS/Linux Dependancies](#macos-and-linux-dependancies)
+   * [Windows](#windows)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Why ConvertU?
 
 - It has a bunch of different units. We don't have an installer right now but for now you can just make shortcuts in your searchbar to easily access ConvertU
 
@@ -12,31 +42,22 @@ A CLI converter for Mass, Digital Storage, Length, Speed, Temperature, Frequency
 
 
 
-
-<h1>Written. In. Python.</h1>
-Very simple to modify and read the source code.
- 
- 
-<img src="https://cdn.discordapp.com/attachments/655147160190320651/997675726394376262/1024px-Python-logo-notext.svg.png" width="65"/>
-
--------------------------------------------------------------------------------------------------------------------
-<h1>HOW TO RUN</h1>
-
-<h1>Linux & MacOS</h1>
+## How to run
 
 
-<h1>Please note the following dependencies</h1>
 
-Python
+## MacOS and Linux Dependancies
+
+**Python**
 
 Install Python and Pip. For instructions please check the <a href="https://python.org/downloads/">Downloads website</a>
 
-Git
+**Git**
 
 To git clone of course! 
 
 
-<h1>Now for installation</h1>
+## MacOS and Linux
 <p>You guys are lucky. You guys have installers. Simply run
 
 ```sh
@@ -81,9 +102,11 @@ It will tell you when it is installed. Now that it is installed you can run
 ConvertU
 ```
 
-And that's it for Linux/MacOS
+And that's it for MacOS/Linux
+
  
-<h1>Windows</h1> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Windows_logo_-_2012.png/800px-Windows_logo_-_2012.png" alt="linux" width="40" height="40"/>
+## Windows 
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Windows_logo_-_2012.png/800px-Windows_logo_-_2012.png" alt="linux" width="40" height="40"/>
 Go to the <a href="https://github.com/PhotonMastr/ConvertU-CLI/releases">Releases Page</a>
 Click on the text ConvertU-CLI-[version here]-Windows.exe
 <img src="https://cdn.discordapp.com/attachments/655147160190320651/1008406894320304178/Screen_Shot_2022-08-14_at_12.08.16_PM.png" width="200"/>
