@@ -56,6 +56,13 @@ Install Python and Pip. For instructions please check the <a href="https://pytho
 
 To git clone of course! 
 
+**Python Installer**
+
+It seems only on arch that there is a bug where you need to install a AUR package called
+
+<a href="https://aur.archlinux.org/packages/python-installer-git">Python-Installer-Git</a>
+
+Also thank you to my good friend <a href="https://github.com/jaamivstheworld">Jaami</a> for pointing this out and helping out ConvertU
 
 ## MacOS and Linux
 <p>You guys are lucky. You guys have installers. Simply run
