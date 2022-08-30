@@ -54,7 +54,7 @@ Install Python and Pip. For instructions, please check the Python <a href="https
 
 To git clone of course! 
 
-<h1>Python Installer</h1>7
+<h1>Python Installer</h1>
 
 It seems only on arch that there is a bug where you need to install a AUR package called
 
