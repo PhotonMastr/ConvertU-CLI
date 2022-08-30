@@ -1,5 +1,5 @@
-# ConvertU
-A CLI converter for Mass, Digital Storage, Length, Speed, Temperature, Frequency, Area, Time... Written in Python
+# ConvertU-CLI  
+A simple CLI converter program written in Python
 -------------------------------------------------------------------------------------------------------------------
 
 Index 
@@ -39,24 +39,22 @@ Index
 
 - Feel Free to make your own forks of it! Modify however you want you don't have to rely on me
 
+- Very useful on a day to day basis. If you quickly want to convert minutes to seconds, millimetres to metres, etc
 
 
-
-## How to run
-
-
+## How to run ConvertU-CLI on your system
 
 ## MacOS and Linux Dependancies
 
-**Python**
+<h1>Python</h1>
 
-Install Python and Pip. For instructions please check the <a href="https://python.org/downloads/">Downloads website</a>
+Install Python and Pip. For instructions, please check the Python <a href="https://python.org/downloads/">Downloads website</a>
 
-**Git**
+<h1>Git</h1>
 
 To git clone of course! 
 
-**Python Installer**
+<h1>Python Installer</h1>7
 
 It seems only on arch that there is a bug where you need to install a AUR package called
 
