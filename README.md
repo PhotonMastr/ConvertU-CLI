@@ -9,6 +9,7 @@ Index
    * [MacOS and Linux](#macos-and-linux)
    * [MacOS/Linux Dependancies](#macos-and-linux-dependancies)
    * [Windows](#windows)
+* [Notice about using on windows](#notice-about-antivirus-flag-on-windows)
 
 
 
@@ -42,7 +43,7 @@ Index
 - Very useful on a day to day basis. If you quickly want to convert minutes to seconds, millimetres to metres, etc
 
 
-## How to run ConvertU-CLI on your system
+## How to run 
 
 ## MacOS and Linux Dependancies
 
@@ -118,7 +119,12 @@ Click on the text ConvertU-CLI-[version here]-Windows.exe
 And it should download a file in your Downloads folder. I'm sure if you've used windows before... you know the drill. Double click the file and it just works
 
 
+## Notice about antivirus flag on windows
+<p>I mentioned this on the discord but I think that I should mention it here.
+Running ConvertU on Windows is a bit dodgy, allow me to explain
+</p>
 
+<p>Everyone's favourite operating system(not really lol) **Windows** seems to think ConvertU-CLI is a virus. Is ConvertU-CLI a virus? No, lol... I still don't really know why it flags it as such but it just does and if you really don't believe me I mean read the source code yourself. Anyways I don't really feel like typing out the instructions on how to get it working with the antivirus blockade but if you wanna know check my discord server which is below!! Thanks lol</p>
 <h1> Discord Server </h1>
 <p>Wanna be possibly involved in the project, wanna talk to me? Need to ask questions? Well the <a href="https://discord.gg/dKbJVwRfpE">Discord Server</a> is the right place for you</p>
 
