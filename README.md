@@ -130,4 +130,4 @@ Running ConvertU on Windows is a bit dodgy, allow me to explain
 
 <img src="https://cdn.discordapp.com/attachments/655147160190320651/1000954703653380117/Logo.png" alt="ConvertU" width="100" height="100"/>
 <p>ConvertU-CLI</p>
-<p>Line count: 1975
+<p>Line count: 1976</p>
