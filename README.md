@@ -1,3 +1,9 @@
+# NOTE
+ConvertU-CLI is now depreciated, please go to <a href="https://github.com/PhotonMastr/ConvertU-CCLI>ConvertU-CCLI</a> if you want something more up to date
+
+
+
+
 # ConvertU-CLI  
 A simple CLI converter program written in Python
 -------------------------------------------------------------------------------------------------------------------
